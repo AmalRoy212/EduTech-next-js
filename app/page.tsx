@@ -12,7 +12,7 @@ export default function Home() {
       <div className='flex flex-col gap-20'>
         <Hero/>
         <VideoProvider />
-        <Skills/>
+        {/* <Skills/> */}
         <ProgressBar value={60} maxValue={100} />
         <CircleProgressBar value={70} maxValue={100}/>
         {/* <Encryption />
