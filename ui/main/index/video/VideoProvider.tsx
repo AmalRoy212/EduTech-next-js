@@ -4,7 +4,7 @@
 import React from 'react';
 import { motion } from 'framer-motion'
 import { slideInFromTop } from '@/utils/motion';
-import VideoHolder from '@/ui/sub/videoHolder/VideoHolder';
+import VideoHolder from '@/ui/sub/index/videoHolder/VideoHolder';
 
 function VideoProvider() {
   return (

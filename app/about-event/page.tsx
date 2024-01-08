@@ -1,5 +1,5 @@
 import React from 'react'
-import DetailsHolder from '@/ui/main/details/DetailsHolder'
+import DetailsHolder from '@/ui/main/aboutEvent/DetailsHolder'
 
 function page() {
     return (

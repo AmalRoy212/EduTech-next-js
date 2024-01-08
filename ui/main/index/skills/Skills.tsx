@@ -1,6 +1,6 @@
 import { Backend_skill, Frontend_skill, Full_stack, Other_skill, Skill_data } from '@/constants/data'
-import SkillDataProvider from '@/ui/sub/skillDataProvider/SkillDataProvider'
-import SkillText from '@/ui/sub/skillText/SkillText'
+import SkillDataProvider from '@/ui/sub/index/skillDataProvider/SkillDataProvider'
+import SkillText from '@/ui/sub/index/skillText/SkillText'
 import React from 'react'
 
 function Skills() {

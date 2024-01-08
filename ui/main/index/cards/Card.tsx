@@ -1,4 +1,4 @@
-import Cards from "@/ui/sub/card/Cards";
+import Cards from "@/ui/sub/index/card/Cards";
 import React from "react";
 
 

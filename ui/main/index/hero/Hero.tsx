@@ -1,4 +1,4 @@
-import HeroContent from "@/ui/sub/heroContent/HeroContent";
+import HeroContent from "@/ui/sub/index/heroContent/HeroContent";
 import React from "react";
 
 const Hero = () => {
