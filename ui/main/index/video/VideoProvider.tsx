@@ -16,7 +16,7 @@ function VideoProvider() {
         className='flex flex-row justify-center items-center'
       >
         <h1 className="text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-          CONFERENCESS
+          THE FUTURE OF EDUCATION
         </h1>
       </motion.div>
       <VideoHolder />

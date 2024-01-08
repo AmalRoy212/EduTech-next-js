@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import DetailHeading from '../headings/DetailHeading';
+import WhyContainer from '@/ui/sub/index/whyContainer/WhyContainer';
 
 function Why() {
   return (
-    <div>Why</div>
+    <>
+      <DetailHeading 
+        nanoHeading={`The Mangalore EdTech market is growing rapidly`} 
+        mainHeading={`Why Mangaluru ?`}
+        miniHeading={`The city's large and young population`}
+      />
+      <WhyContainer/>
+    </>
   )
 }
 

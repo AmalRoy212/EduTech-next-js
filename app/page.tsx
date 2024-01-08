@@ -5,6 +5,7 @@ import ProgressBar from '@/ui/main/index/progressbar/bar/ProgressBar'
 import CircleProgressBar from '@/ui/main/index/progressbar/circle/CircleProgressBar'
 import Skills from '@/ui/main/index/skills/Skills'
 import VideoProvider from '@/ui/main/index/video/VideoProvider'
+import Why from '@/ui/main/index/why/Why'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <div className='flex flex-col gap-20'>
         <Hero/>
         <VideoProvider />
+        <Why/>
         {/* <Skills/>
         <ProgressBar value={60} maxValue={100} />
         <CircleProgressBar value={70} maxValue={100}/>
