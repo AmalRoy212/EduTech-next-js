@@ -11,12 +11,11 @@ function VideoProvider() {
     <div>
       <motion.div
         variants={slideInFromTop}
-        initial="hidden"
-        whileInView="visible"
-        // className="h-full w-full flex flex-col md:flex-row gap-10 px-10"
+        initial="visible"
+        // whileInView="visible"
         className='flex flex-row justify-center items-center'
       >
-        <h1 className="text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+        <h1 className="text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
           CONFERENCESS
         </h1>
       </motion.div>

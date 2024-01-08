@@ -5,6 +5,7 @@ import ProgressBar from '@/ui/main/progressbar/bar/ProgressBar';
 import CircleProgressBar from '@/ui/main/progressbar/circle/CircleProgressBar';
 import Skills from '@/ui/main/skills/Skills';
 import VideoProvider from '@/ui/main/video/VideoProvider';
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -13,8 +14,8 @@ export default function Home() {
         <Hero/>
         <VideoProvider />
         {/* <Skills/> */}
-        <ProgressBar value={60} maxValue={100} />
-        <CircleProgressBar value={70} maxValue={100}/>
+        {/* <ProgressBar value={60} maxValue={100} />
+        <CircleProgressBar value={70} maxValue={100}/> */}
         {/* <Encryption />
         <Card /> */}
       </div>
