@@ -42,14 +42,14 @@ function HeroContent() {
           The Global Future Education Summit is a premier gathering of educators, policymakers, and innovators worldwide. It's a platform for discussing the future of education, embracing technological advancements, and sharing insights to shape innovative learning approaches. Through workshops, keynotes, and collaborations, it aims to drive meaningful changes in education globally.
         </motion.p>
 
-        <motion.a
+        <motion.div
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           <Link href={'/details'}>
             Learn More!
           </Link>
-        </motion.a>
+        </motion.div>
       </div>
 
       <motion.div
