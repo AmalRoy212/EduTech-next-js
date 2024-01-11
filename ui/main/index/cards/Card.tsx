@@ -36,7 +36,7 @@ const Card = () => {
         {cardsDataTwo.map(( card, index ) => (
           <Cards
             key={index}
-            index={index + 3}
+            index={index + 1}
             src={card.src}
             title={card.title}
             description={card.description}
