@@ -8,7 +8,7 @@ import VideoProvider from '@/ui/main/index/video/VideoProvider'
 
 export default function Home() {
   return (
-    <main className='h-full w-full'>
+    <main className='h-full w-full md:w-full'>
       <div className='flex flex-col gap-20'>
         <Hero/>
         <VideoProvider />

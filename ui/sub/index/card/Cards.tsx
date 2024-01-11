@@ -17,7 +17,7 @@ interface Props {
 const Cards = ({ src, title, description, index }: Props) => {
   return (
     <motion.div 
-      variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
+      variants={fadeIn('right', 'spring', (index/2) * 0.5, 0.75)}
       className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full the-card"
       style={{ background: `url(${src})`, backgroundSize: 'cover' }}
     >

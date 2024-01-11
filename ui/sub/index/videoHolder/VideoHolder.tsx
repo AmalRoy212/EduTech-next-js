@@ -19,7 +19,7 @@ function VideoHolder() {
         variants={slideInFromLeft(0.5)}
         initial="hidden"
         whileInView="visible"
-        className="h-full w-full md:w-3/4   gap-10 px-10"
+        className="md:h-full w-[380px] md:w-3/4  gap-10 px-5  md:px-10"
       >
         <video
           autoPlay
@@ -36,19 +36,20 @@ function VideoHolder() {
         variants={slideInFromRight(0.5)}
         initial="hidden"
         whileInView="visible"
-        className='h-full w-full md:w-2/4 bg-dark'
+        className='h-full w-full md:w-3/4 bg-dark'
       >
-        <p className='text-sm font-thin text-center text-gray-300 dark:text-gray-300 p-5 mt-5'>In the future,<span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> EDUCATION</span>  will be a thrilling journey 
-        tailored just for you! Imagine learning that feels like an adventure, 
-        where high-tech tools and smart systems understand how you learn best. 
-        You'll dive into subjects through virtual reality, where history, science, 
-        or art come alive right before your eyes.
+        <p className='text-lg text-gray-400 dark:text-gray-400 md:p-5 mt-5'>In the future,
+          <span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> EDUCATION</span>  will be a thrilling journey
+          tailored just for you! Imagine learning that feels like an adventure,
+          where high-tech tools and smart systems understand how you learn best.
+          You'll dive into subjects through virtual reality, where history, science,
+          or art come alive right before your eyes.
 
-        Forget the old one-size-fits-all approach! 
-        Future education is all about <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-purple-500 to-cyan-500'> YOU</span>. Want to zoom ahead or 
-        take your time? No problem! It's like having a personalized learning genie. 
-        Plus, teamwork and hands-on projects will be key, helping you think sharp and 
-        solve real-world puzzles.
+          Forget the old one-size-fits-all approach!
+          Future education is all about <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-purple-500 to-cyan-500'> YOU</span>. Want to zoom ahead or
+          take your time? No problem! It's like having a personalized learning genie.
+          Plus, teamwork and hands-on projects will be key, helping you think sharp and
+          solve real-world puzzles.
         </p>
       </motion.div>
     </div>

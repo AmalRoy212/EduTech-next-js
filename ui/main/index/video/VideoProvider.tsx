@@ -13,9 +13,9 @@ function VideoProvider() {
         variants={slideInFromTop}
         initial="visible"
         // whileInView="visible"
-        className='flex flex-row justify-center items-center'
+        className='flex md:flex-row justify-center items-center'
       >
-        <h1 className="text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
+        <h1 className="text-[30px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 md:py-10">
           THE FUTURE OF EDUCATION
         </h1>
       </motion.div>

@@ -13,9 +13,9 @@ function HeroContent() {
     <motion.div
       initial='hidden'
       animate='visible'
-      className='flex flex-row item-center justify-center px-20 mt-40 w-full z-[20] '
+      className='flex flex-row item-center justify-center px-5 md:px-20 mt-40 w-full z-[20] '
     >
-      <div className='h-full w-full flex flex-col gap-5 justify-center mt-auto text-start'>
+      <div className='h-full w-full flex flex-col mt-[-50px] md:mt-[0px] gap-5  justify-center mt-auto text-start'>
         <motion.div
           variants={slideInFromTop}
           className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
@@ -26,7 +26,7 @@ function HeroContent() {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className='flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto'
+          className='flex flex-col gap-6 mt-6 text-5xl md:text-6xl text-bold text-white max-w-[600px] w-auto h-auto'
         >
           <span>
             GLOBAL
@@ -52,12 +52,12 @@ function HeroContent() {
         </motion.div>
       </div>
 
-      <motion.div
+      {/* <motion.div
         variants={slideInFromRight(0.8)}
-        className='w-full h-full flex justify-center items-center'
+        className='w-full h-full hidden md:flex flex justify-center items-center'
       >
-        {/* <Image src='/images/mainIconsdark.svg' alt='work icons' height={650} width={650} /> */}
-      </motion.div>
+        <Image src='/images/mainIconsdark.svg' alt='work icons' height={650} width={650} />
+      </motion.div> */}
 
     </motion.div>
   )
