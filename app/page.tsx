@@ -15,9 +15,9 @@ export default function Home() {
         <Card />
         <Encryption />
         {/* <SummitAttendees /> */}
-        <Skills/>
+        {/* <Skills/>
         <ProgressBar value={60} maxValue={100} />
-        <CircleProgressBar value={70} maxValue={100}/>
+        <CircleProgressBar value={70} maxValue={100}/> */}
       </div>
     </main>
   )
