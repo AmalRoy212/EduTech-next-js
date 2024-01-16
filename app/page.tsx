@@ -1,3 +1,4 @@
+import DetailsHolder from '@/ui/main/index/aboutEvent/DetailsHolder'
 import Card from '@/ui/main/index/cards/Card'
 import Encryption from '@/ui/main/index/encryption/Encryption'
 import Hero from '@/ui/main/index/hero/Hero'
@@ -11,7 +12,7 @@ export default function Home() {
     <main className='h-full w-full md:w-full'>
       <div className='flex flex-col gap-20'>
         <Hero/>
-        <VideoProvider />
+        <DetailsHolder/>
         <Card />
         <Encryption />
         {/* <SummitAttendees /> */}

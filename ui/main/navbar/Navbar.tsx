@@ -11,7 +11,7 @@ function Navbar() {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/images/logos/primeLogo.png"
+            src="/images/logos/GG_WHITE.png"
             alt="logo"
             width={70}
             height={70}
@@ -19,7 +19,7 @@ function Navbar() {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            GFES
+            GENFINITY GLOBAL
           </span>
         </a>
 
