@@ -5,7 +5,6 @@ import Hero from '@/ui/main/index/hero/Hero'
 import ProgressBar from '@/ui/main/index/progressbar/bar/ProgressBar'
 import CircleProgressBar from '@/ui/main/index/progressbar/circle/CircleProgressBar'
 import Skills from '@/ui/main/index/skills/Skills'
-import VideoProvider from '@/ui/main/index/video/VideoProvider'
 
 export default function Home() {
   return (

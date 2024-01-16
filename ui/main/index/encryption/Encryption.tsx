@@ -54,7 +54,7 @@ const Encryption = () => {
         </div> */}
         <SummitAttendees />
       </div>
-      <div className="flex flex-row items-center justify-center  z-[20] w-full h-auto hidden md:flex">
+      <div className=" flex-row items-center justify-center  z-[20] w-full h-auto hidden md:flex">
         <CircularProgressChildren  value={0}/>
       </div>
       <div className="absolute z-[20] md:bottom-[10px] bottom-[0]  px-[5px]">
@@ -63,7 +63,7 @@ const Encryption = () => {
         </div>
       </div>
 
-      <div className="w-full h-[100vh] flex items-start justify-center absolute hidden md:flex">
+      <div className="w-full h-[100vh] items-start justify-center absolute hidden md:flex">
         <video
           loop
           muted

@@ -32,10 +32,21 @@ function Occation() {
           <BgCards data={card} index={index} />
         ))}
         <div className="relative flex flex-col md:w-1/4 w-full md:h-[50vh] h-auto justify-center items-center p-5 md:mt-[-8rem]">
-            <div className="absolute top-0 left-0 w-full h-full">
-                <video   className="transform rotate-90 h-full w-full object-contain"
-                     src="/videos/cards_bg.mp4/"></video>
-            </div>
+        <h1 className="absolute left-3 md:mt-[-9rem] text-9xl md:m-[-1rem] font-bold text-slate-200 z-10">
+          $1 B
+        </h1>
+        <p className="font-bold text-1xl text-slate-300 absolute w-[50%] z-10 mt-10 bg-black ml-7">
+            Bengaluru's EdTech markets estimated worth currently
+        </p>
+          <div className="absolute top-0 left-0 w-full h-full z-0">
+            <video
+              loop
+              autoPlay
+              muted
+              className="transform rotate-90 h-full w-full object-contain"
+              src="/videos/cards_bg.mp4/"
+            ></video>
+          </div>
         </div>
       </div>
     </div>
