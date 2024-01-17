@@ -1,9 +1,10 @@
 import React from 'react'
+import ProgressBar from '../progressbar/bar/ProgressBar'
 
 function Industries() {
   return (
-    <div>
-      
+    <div className='flex flex-row p-5 justify-center items-center bg-white h-[50vh] w-full'>
+      <ProgressBar value={70} maxValue={100} />
     </div>
   )
 }

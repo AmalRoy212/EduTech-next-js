@@ -32,7 +32,7 @@ function Occation() {
 
       <div className="md:flex flex-row w-full h-auto py-10 md:py-0">
         {cardsData.map((card, index) => (
-          <BgCards data={card} index={index} />
+          <BgCards key={index} data={card} index={index} />
         ))}
         <motion.div 
          variants={zoomIn(0.5,0.7)}

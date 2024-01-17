@@ -2,13 +2,13 @@ import * as React from 'react';
 import CircularProgress from '@mui/joy/CircularProgress';
 import ICircleProgress from './ICircleProgress';
 
-export const CircularProgressChildren = ({value} : ICircleProgress) => {
+export const CircularProgressChildren = ({value, title, index, color} : ICircleProgress) => {
   return (
-    <div className='flex h-[150px] w-1/4 justify-center items-center '>
-      {/* <CircularProgress color="warning">
-        <WarningIcon color="warning" />
-      </CircularProgress> */}
-      <CircularProgress size="lg" determinate value={value}>
+    <div key={index} className='relative flex h-auto p-3 w-1/4 justify-center items-center '>
+      <CircularProgress color={color} size="lg" sx={{ '--CircularProgress-size': '200px' }} determinate value={value}>
+        {value + "% "}
+        <br />
+        <p className='absolute bottom-3 text-[12px] mb-[8rem] text-white'>{title}</p>
       </CircularProgress>
       {/* <CircularProgress color="danger" sx={{ '--CircularProgress-size': '80px' }}>
         <ReportIcon color="danger" />
