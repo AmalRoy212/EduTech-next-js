@@ -5,7 +5,7 @@ import ICircleProgress from './ICircleProgress';
 export const CircularProgressChildren = ({value, title, index, color} : ICircleProgress) => {
   return (
     <div key={index} className='relative flex h-auto p-3 w-1/4 justify-center items-center '>
-      <CircularProgress color={color} size="lg" sx={{ '--CircularProgress-size': '200px' }} determinate value={value}>
+      <CircularProgress color="primary"  sx={{ '--CircularProgress-size': '200px' }} determinate value={value}>
         {value + "% "}
         <br />
         <p className='absolute bottom-3 text-[12px] mb-[8rem] text-white'>{title}</p>
