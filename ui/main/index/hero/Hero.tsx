@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative overflow-x-hidden flex flex-col h-full w-full" id="about-me">
+    <div className="relative overflow-x-hidden flex flex-col h-full w-full" id="hero">
       <video
         autoPlay
         muted

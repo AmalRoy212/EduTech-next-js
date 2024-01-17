@@ -10,7 +10,7 @@ import Occation from "@/ui/sub/index/aboutEvent/Occation";
 const Encryption = () => {
   return (
     <>
-      <div className="w-auto h-auto z-[5]">
+      <div id="about" className="w-auto h-auto z-[5]">
         <motion.div
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
