@@ -9,7 +9,7 @@ import TopicsProvide from '@/ui/main/index/topics/TopicsProvide'
 
 export default function Home() {
   return (
-    <main className='h-full w-full md:w-full'>
+    <main className='h-full w-full md:w-[100%] overflow-hidden'>
       <div className='flex flex-col gap-20'>
         <Hero/>
         <DetailsHolder/>
