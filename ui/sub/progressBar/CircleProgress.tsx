@@ -4,7 +4,7 @@ import ICircleProgress from './ICircleProgress';
 
 export const CircularProgressChildren = ({value, title, index, color} : ICircleProgress) => {
   return (
-    <div data-aos-duration={index*1000} data-aos="flip-up" key={index} className='relative flex h-auto p-3 w-1/4 justify-center items-center '>
+    <div data-aos-duration={index*300} data-aos="flip-up" key={index} className='relative flex h-auto p-3 w-1/4 justify-center items-center '>
       <CircularProgress color="primary"  sx={{ '--CircularProgress-size': '200px' }} determinate value={value}>
         {value + "% "}
         <br />

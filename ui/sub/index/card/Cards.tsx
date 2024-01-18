@@ -12,7 +12,7 @@ interface Props {
 const Cards = ({ src, title, description, index }: Props) => {
   return (
     <div 
-      data-aos-duration={index*1000}
+      data-aos-duration={index*300}
       data-aos="fade-right"
       className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full the-card"
       style={{ background: `url(${src})`, backgroundSize: 'cover' }}

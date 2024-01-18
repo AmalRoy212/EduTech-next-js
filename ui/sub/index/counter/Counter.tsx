@@ -34,7 +34,7 @@ export const Counter: React.FC<ICounter> = ({ label, countTo, duration, index })
 
   return (
     <div
-      data-aos-duration={index*1000}
+      data-aos-duration={index*300}
       data-aos="fade-left"
       className="md:w-1/4 sm:w-1/2 p-2 flex justify-center items-center flex-col-reverse"
     >
