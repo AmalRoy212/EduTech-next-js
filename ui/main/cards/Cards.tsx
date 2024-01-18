@@ -145,59 +145,6 @@ function Cards() {
           ))}
         </div>
       </div>
-
-      {/* <div className="flex mr-8 md:mr-0 flex-col justify-center items-center px-5 w-full gap-5">
-          <div className="flex flex-row justify-center items-center h-auto w-full md:w-1/2 gap-5">
-            {progressData.slice(0, 2).map((data, index) => (
-              <CircularProgressChildren
-                color={data.color}
-                key={index}
-                index={index}
-                value={data.value}
-                title={data.title}
-              />
-            ))}
-          </div>
-
-          <div className="flex flex-row justify-center items-center h-auto w-full md:w-1/2 gap-5">
-            {progressData.slice(2).map((data, index) => (
-              <CircularProgressChildren
-                color={data.color}
-                key={index + 2}
-                index={index + 2}
-                value={data.value}
-                title={data.title}
-              />
-            ))}
-          </div>
-        </div> */}
-
-      {/* <div className="flex mr-8 md:mr-0 flex-col md:flex-row justify-center items-center px-5 w-full gap-5">
-        <div className="flex flex-row justify-center items-center h-auto w-1/2 bg-green-400 z-[19]">
-          {progressData.map((data, index) => (
-            <>
-              <CircularProgressChildren
-                color={data.color}
-                key={index}
-                index={index}
-                value={data.value}
-                title={data.title}
-              />
-              {index === 1 && (
-                <div className="w-[100px] flex-row flex bg-red h-[100px] z-[20]">
-                  {index}
-                </div>
-              )}
-            </>
-          ))}
-        </div>
-        <div className="flex flex-col justify-center items-center h-[100px] w-1/2 bg-green-400 z-[19]"></div>
-      </div> */}
-      {/* <div className="flex mr-8 md:mr-0 flex-col md:flex-row justify-center items-center px-5 w-full">
-        {progressData.map((data, index) => (
-            <CircularProgressChildren color={data.color} key={index} index={index} value={data.value} title={data.title}/>
-        ))}
-      </div> */}
     </>
   );
 }
