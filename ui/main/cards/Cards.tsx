@@ -1,8 +1,7 @@
-import CardsProvider from "@/ui/sub/cardsProvider/CardsProvider";
 import React from "react";
-import CircleProgressBar from "../index/progressbar/circle/CircleProgressBar";
-import { CircularProgress } from "@mui/joy";
+import CardsProvider from "@/ui/sub/cardsProvider/CardsProvider";
 import { CircularProgressChildren } from "@/ui/sub/progressBar/CircleProgress";
+import SubHeadings from "@/ui/sub/headers/SubHeadings";
 
 function Cards() {
   const currentCardData = [
@@ -71,7 +70,8 @@ function Cards() {
 
   return (
     <>
-      <div className="md:flex mr-8 md:mr-0 flex-row justify-center items-center px-10">
+      <SubHeadings heading="INDUSTRIES" />
+      <div className="md:flex mt-[-3rem] mr-8 md:mr-0 flex-row justify-center items-center px-10">
         {currentCardData.map((data, index) => (
           <CardsProvider key={index} data={data} index={index} />
         ))}
@@ -86,6 +86,11 @@ function Cards() {
             <CircularProgressChildren color={data.color} key={index} index={index} value={data.value} title={data.title}/>
         ))}
       </div>
+      {/* <div className="flex mr-8 md:mr-0 flex-col md:flex-row justify-center items-center px-5 w-full">
+        {progressData.map((data, index) => (
+            <CircularProgressChildren color={data.color} key={index} index={index} value={data.value} title={data.title}/>
+        ))}
+      </div> */}
     </>
   );
 }

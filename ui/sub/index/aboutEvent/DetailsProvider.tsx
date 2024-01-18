@@ -4,7 +4,7 @@ import React from 'react'
 function DetailsProvider() {
   return (
     <div className='md:flex flex-row w-full h-auto py-10 md:py-0'>
-      <div className='flex p-3 flex-col md:w-2/4 w-full md:h-screen justify-center items-center'>
+      <div data-aos="fade-up-right" className='flex p-3 flex-col md:w-2/4 w-full md:h-screen justify-center items-center'>
         <video src="videos/students.mp4" loop muted autoPlay className='rounded-xl'></video>
         {/* <div className='flex justify-center items-center p-0 m-0 h-full w-full top-0 relative'>
           <Image
@@ -25,7 +25,7 @@ function DetailsProvider() {
             />
         </div> */}
       </div>
-      <div className='flex flex-col md:w-2/4 w-full md:h-screen h-auto justify-center items-center p-5'>
+      <div data-aos="fade-up-left" className='flex flex-col md:w-2/4 w-full md:h-screen h-auto justify-center items-center p-5'>
         <p className='text-base text-gray-400 dark:text-gray-400 md:p-5'>
           We believe leaders engaged in reshaping the
           <span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> education </span>

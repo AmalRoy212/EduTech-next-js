@@ -23,7 +23,7 @@ const Encryption = () => {
           CONFERENCE  
         </motion.div>
       </div>
-      <div className="z-[20] px-[5px] md:mt-[-5rem] mt-[-4rem]">
+      <div className="z-[20] px-[5px]">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
           Where we are planning and Why ?
         </div>

@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { SparklesIcon } from "@heroicons/react/16/solid";
 import { slideInFromTop } from "@/utils/motion";
 
-export const Counter: React.FC<ICounter> = ({ label, countTo, duration }) => {
+export const Counter: React.FC<ICounter> = ({ label, countTo, duration, index }) => {
   const [counterValue, setCounterValue] = useState(0);
 
   useEffect(() => {
@@ -34,7 +34,8 @@ export const Counter: React.FC<ICounter> = ({ label, countTo, duration }) => {
 
   return (
     <div
-      data-aos="fade-right"
+      data-aos-duration={index*1000}
+      data-aos="fade-left"
       className="md:w-1/4 sm:w-1/2 p-2 flex justify-center items-center flex-col-reverse"
     >
       <motion.div

@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { cardsDataOne, cardsDataTwo } from "@/constants/cards";
 import Cards from "@/ui/sub/index/card/Cards";
 import { staggerContainer } from "@/utils/viewMotions";
+import { slideInFromTop } from "@/utils/motion";
+import Headers from "@/ui/sub/headers/Headers";
 
 
 const Card = () => {
@@ -15,12 +17,10 @@ const Card = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center py-20 mt-[-10rem]"
       id="happening"
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        HAPPENINGS
-      </h1>
+      <Headers first="HAPPENINGS" middle="&" last="INSIGHTS" />
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         {cardsDataOne.map(( card, index ) => (
           <Cards

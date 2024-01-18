@@ -1,10 +1,5 @@
-
-"use client"
-
 import Image from "next/image";
 import React from "react";
-import { motion } from "framer-motion";
-import { fadeIn } from "@/utils/viewMotions";
 import './cards.css'
 
 interface Props {
@@ -16,8 +11,9 @@ interface Props {
 
 const Cards = ({ src, title, description, index }: Props) => {
   return (
-    <motion.div 
-      variants={fadeIn('right', 'spring', (index/2) * 0.5, 0.75)}
+    <div 
+      data-aos-duration={index*1000}
+      data-aos="fade-right"
       className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full the-card"
       style={{ background: `url(${src})`, backgroundSize: 'cover' }}
     >
@@ -38,7 +34,7 @@ const Cards = ({ src, title, description, index }: Props) => {
         <h1 className="text-2xl font-bold text-white">{title}</h1>
         <p className="mt-2 text-gray-100 text-[14px] ">{description}</p>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

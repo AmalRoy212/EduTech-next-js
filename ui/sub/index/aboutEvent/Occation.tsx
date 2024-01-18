@@ -50,7 +50,7 @@ function Occation() {
               loop
               autoPlay
               muted
-              className="transform rotate-90 h-full w-full object-contain"
+              className="flex transform rotate-90 h-full w-full object-contain"
               src="/videos/cards_bg.mp4/"
             ></video>
           </div>

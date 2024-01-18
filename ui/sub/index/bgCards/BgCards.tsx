@@ -27,7 +27,7 @@ function BgCards({ data, index }: IBgCard) {
           autoPlay
           playsInline
           preload="false"
-          className="w-full  h-full object-contain"
+          className="w-full flex h-full object-contain"
           src="/videos/cards_bg.mp4/"
         />
       </div>

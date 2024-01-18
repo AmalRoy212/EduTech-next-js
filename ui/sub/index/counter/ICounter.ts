@@ -1,5 +1,6 @@
 export interface ICounter {
-   label: string;
+  label: string;
   countTo: number;
   duration: number;
+  index : number
 }

@@ -34,11 +34,11 @@ const Encryption = () => {
       <div className="flex flex-row items-center md:mt-[8rem] absolute z-[20] w-full h-auto">
         <SummitAttendees />
       </div>
-      <div className="absolute z-[20] md:bottom-[10px] bottom-[0]  px-[5px]">
+      {/* <div className="absolute z-[20] md:bottom-[10px] bottom-[0]  px-[5px]">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
           What are the industries on focus ?
         </div>
-      </div>
+      </div> */}
 
       <div className="w-full h-[100vh] items-start justify-center absolute hidden md:flex">
         <video

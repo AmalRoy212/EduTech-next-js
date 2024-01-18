@@ -8,7 +8,7 @@ const SummitAttendees: React.FC = () => {
     <div className="container mx-auto py-10 z-11 w-full h-full">
       <div className="flex flex-wrap justify-center items-center m-2 pt-10 mt-5">
         {attendies_Data.map(( attend, index ) => (
-          <Counter key={index} label={attend.label} countTo={attend.toCount} duration={2000} />
+          <Counter key={index} index={index} label={attend.label} countTo={attend.toCount} duration={2000} />
         ))}
       </div>
     </div>

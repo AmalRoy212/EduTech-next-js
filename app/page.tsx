@@ -4,9 +4,8 @@ import Card from '@/ui/main/index/cards/Card'
 import Encryption from '@/ui/main/index/encryption/Encryption'
 import Hero from '@/ui/main/index/hero/Hero'
 import Industries from '@/ui/main/index/industries/Industries'
-import ProgressBar from '@/ui/main/index/progressbar/bar/ProgressBar'
-import CircleProgressBar from '@/ui/main/index/progressbar/circle/CircleProgressBar'
 import Skills from '@/ui/main/index/skills/Skills'
+import TopicsProvide from '@/ui/main/index/topics/TopicsProvide'
 
 export default function Home() {
   return (
@@ -17,6 +16,7 @@ export default function Home() {
         <Card />
         <Encryption />
         <Cards />
+        <TopicsProvide/>
         {/* <Industries /> */}
         {/* <SummitAttendees /> */}
         {/* <Skills/>

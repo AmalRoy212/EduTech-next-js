@@ -1,0 +1,15 @@
+/* In your CSS file or in a style tag in your HTML */
+.border-gradient-blue-purple {
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background-clip: padding-box;
+  border-image: linear-gradient(to right, #3498db, #8e44ad);
+  border-image-slice: 1;
+}
+
+.gradient-border {
+  border: 2px solid ;
+  border-radius: 15px;
+  /* background-clip: padding-box; */
+  background-image: linear-gradient(to right, #3498db, #8e44ad);
+}
