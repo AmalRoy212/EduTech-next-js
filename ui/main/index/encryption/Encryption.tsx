@@ -3,10 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
-import Image from "next/image";
 import SummitAttendees from "../attendies/Attedies";
-import CircleProgressBar from "../progressbar/circle/CircleProgressBar";
-import { CircularProgressChildren } from "@/ui/sub/progressBar/CircleProgress";
 
 const Encryption = () => {
   return (
