@@ -13,9 +13,8 @@ interface ICards {
 function CardsProvider({ data, index }: ICards) {
   return (
     <div 
-     
      data-aos="zoom-in" 
-     className="relative z-[29] m-5 flex flex-col mt-6 text-gray-200 shadow-md bg-clip-border md:h-[60vh] h-[40vh] rounded-xl md:w-1/3 w-full backdrop-blur-10"
+     className="relative z-[29] lg:max-h-[43vh] m-5 flex flex-col mt-6 text-gray-200 shadow-md bg-clip-border md:h-[60vh] h-[49vh] rounded-xl md:w-1/3 w-full backdrop-blur-10"
     >
       <div className="p-6"> 
         <div className="w-full flex justify-center">
@@ -26,14 +25,14 @@ function CardsProvider({ data, index }: ICards) {
         <h5 className="w-full flex justify-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
          {data.title}
         </h5>
-        <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+        <p className="block font-sans text-base text-center antialiased font-light leading-relaxed text-inherit  p-5">
           {data.content}
         </p>
       </div>
-      <div className="p-2 md:p-6 pt-0 absolute bottom-0">
+      <div className="flex p-2 md:p-6 pt-0 absolute bottom-0 w-full justify-center">
         <a href="#" className="inline-block">
           <button
-            className="flex cursor-pointer text-gray-500 items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+            className="bg-slate-800 flex cursor-pointer text-gray-500 items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
             type="button"
           >
             Learn More
