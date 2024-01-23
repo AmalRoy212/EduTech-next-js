@@ -30,7 +30,7 @@ function CardsProvider({ data, index }: ICards) {
           {data.content}
         </p>
       </div>
-      <div className="p-2 md:p-6 pt-0 absolute bottom-0">
+      {/* <div className="p-2 md:p-6 pt-0 absolute bottom-0">
         <a href="#" className="inline-block">
           <button
             className="flex cursor-pointer text-gray-500 items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
@@ -50,7 +50,7 @@ function CardsProvider({ data, index }: ICards) {
             </svg>
           </button>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
