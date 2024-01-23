@@ -1,7 +1,5 @@
 import React from 'react'
 import WhyCards from '@/ui/sub/index/whyCards/WhyCards'
-import { motion } from "framer-motion";
-import { slideInFromTop } from '@/utils/motion';
 
 function WhyShould() {
 
@@ -55,12 +53,12 @@ function WhyShould() {
             </div>
             <div className='w-full h-auto md:flex  pt-[5rem] gap-5 '>
                 {data.slice(0, 2).map((dat,index) => (
-                  <WhyCards heading={dat.heading} content={dat.content}/>
+                  <WhyCards key={index} heading={dat.heading} content={dat.content}/>
                 ))}
             </div>
             <div className='w-full h-auto md:flex mt-[-6rem] pt-[5rem] gap-5'>
                 {data.slice(2).map((dat,index) => (
-                  <WhyCards heading={dat.heading} content={dat.content}/>
+                  <WhyCards key={index + 2} heading={dat.heading} content={dat.content}/>
                 ))}
             </div>
         </div>

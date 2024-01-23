@@ -1,6 +1,8 @@
 import { Socials } from '@/constants/data'
+import HoverButton from '@/ui/sub/hoverButton/HoverButton';
 import Image from 'next/image'
 import React from 'react'
+import { BsFillMenuButtonWideFill } from "react-icons/bs";
 
 function Navbar() {
   return (
@@ -32,8 +34,8 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
+        <div className="md:flex hidden flex-row gap-5">
+          {/* {Socials.map((social) => (
             <Image
               src={social.src}
               alt={social.name}
@@ -41,8 +43,14 @@ function Navbar() {
               width={24}
               height={24}
             />
-          ))}
+          ))} */}
+          <HoverButton type={'social'}/>
+          <HoverButton type={'contact'}/>
+          <HoverButton type={'person'}/>
         </div>
+        <button className='text-white md:hidden flex'>
+          <BsFillMenuButtonWideFill size={30}/>
+        </button>
       </div>
     </div>
   )
