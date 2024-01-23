@@ -9,7 +9,7 @@ function ContactUs() {
         </div>
         <div className='w-full h-auto flex flex-row justify-center items-center'>
             <Image src="/images/logos/GG_WHITE.png" alt='image' width={150} height={200} />
-            <Image src="/images/logos/eventLogo.png" alt='image' width={200} height={200} />
+            {/* <Image src="/images/logos/eventLogo.png" alt='image' width={200} height={200} /> */}
         </div>
     </div>
   )

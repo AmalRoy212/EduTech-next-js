@@ -24,7 +24,7 @@ function End() {
                 </div>
 
                 <div style={{ backgroundColor: "rgba(3, 0, 20, 0.674)" }} className='w-[90%] h-[65%] rounded-xl absolute top-[11rem] flex justify-center items-center z-[9]'>
-                    <p className='text-[14px] text-center text-slate-400 p-10'>
+                    <p className='text-[14px] text-slate-400 p-10 text-justify'>
                         Live interactive workshops organized by ParXcellence will be held at EduTech Oman 2040 conference. The objective is to empower educators on various advancements in the education and training sector. It is a series of professional development workshops for educators in Oman. Power-packed sessions are conducted over 2 days. The workshops are attended by teachers, trainers, senior management, academicians and professors of education institutions from all across the country.
 
                         EduTech Oman 2040 Workshops allow teachers, trainers and faculty members to explore multiple facets of:
