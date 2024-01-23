@@ -98,7 +98,7 @@ function Cards() {
 
   return (
     <>
-      <div className="md:flex mt-[-3rem] mr-8 md:mr-0 flex-row justify-center items-center px-10">
+      <div className="md:flex mt-[-3rem] lg:mt-[-20rem] mr-8 md:mr-0 flex-row justify-center items-center px-10">
         {currentCardData.map((data, index) => (
           <CardsProvider key={index} data={data} index={index} />
         ))}
