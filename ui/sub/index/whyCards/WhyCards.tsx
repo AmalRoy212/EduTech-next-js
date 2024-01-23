@@ -12,7 +12,7 @@ function WhyCards({heading,content}:Iprops) {
         <div className='flex w-[100%] h-auto text-center '>    
           <SubHeadings heading={heading} fontSize={8}/>
         </div>
-        <p className='text-gray-300 p-5'>{content}</p>
+        <p className='text-gray-300 p-5 text-center'>{content}</p>
     </div>
   )
 }

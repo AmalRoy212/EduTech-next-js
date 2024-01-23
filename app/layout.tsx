@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Global Future Edution Summit',
-  description: 'Global future education summit 2024',
+  description: 'Global future education summit bangalore 2024',
 }
 
 export default function RootLayout({

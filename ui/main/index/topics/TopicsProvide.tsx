@@ -46,22 +46,22 @@ function TopicsProvide() {
         dis : 'Innovation for Mental Health and Well-being in Education'
     }
   return (
-    <>
+    <div id='topics'>
         <DetailHeading nanoHeading='' mainHeading='KEY TOPICS OF DISCUSSION' miniHeading='' />
-        <div className='flex mt-[-7rem] md:flex-row flex-col w-[100%] h-auto justify-center items-center p-10'>
+        <div className='flex  md:flex-row flex-col w-[100%] h-auto justify-center items-center p-10'>
             {data.map((dat, index) => (
                 <Topics key={index} data={dat} index={index} />
             ))}
         </div>
-        <div className='flex mt-[-10rem] md:flex-row flex-col w-[100%] h-auto justify-center items-center p-10'>
+        <div className='flex mt-[-5.5rem] md:flex-row flex-col w-[100%] h-auto justify-center items-center p-10'>
             {dataTwo.map((dat, index) => (
                 <Topics key={index} data={dat} index={index} />
             ))}
         </div>
-        <div className='flex mt-[-10rem] md:flex-row flex-col w-[100%] h-auto justify-center items-center p-10'>
+        <div className='flex mt-[-5.5rem]  md:flex-row flex-col w-[100%] h-auto justify-center items-center p-10'>
             <Topics key={90} index={3} data={dataThree}/>
         </div>
-    </>
+    </div>
   )
 }
 

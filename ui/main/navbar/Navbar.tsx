@@ -28,6 +28,7 @@ function Navbar() {
             <a href="#about-us" className='cursor-pointer'>About us</a>
             <a href="#happening" className='cursor-pointer'>Happening</a>
             <a href="#attendies" className='cursor-pointer'>Attendies</a>
+            <a href="#topics" className='cursor-pointer'>topics</a>
           </div>
         </div>
 

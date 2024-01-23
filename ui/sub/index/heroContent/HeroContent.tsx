@@ -15,13 +15,13 @@ function HeroContent() {
       animate='visible'
       className='flex flex-row item-center justify-center px-5 md:px-20 mt-40 w-full z-[20] '
     >
-      <div className='h-full w-full flex flex-col mt-[-50px] md:mt-[0px] gap-5  justify-center mt-auto text-start'>
+      <div className='h-full w-full flex flex-col mt-[-50px] md:mt-[0px] gap-5  justify-center text-start'>
         <motion.div
           variants={slideInFromTop}
           className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
         >
           <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5'/>
-          <h1 className='Welcome-text text-[13px]'>7 - 8 AUGUST 2024 MANGALORE</h1>
+          <h1 className='Welcome-text text-[13px] px-5'>7 - 8 AUGUST 2024 BANGALORE</h1>
         </motion.div>
 
         <motion.div
@@ -54,9 +54,15 @@ function HeroContent() {
 
       {/* <motion.div
         variants={slideInFromRight(0.8)}
-        className='w-full h-full hidden md:flex justify-center items-center'
+        className='relative w-full h-full hidden md:flex justify-center items-center'
       >
-        <Image src='/images/mainIconsdark.svg' alt='work icons' height={650} width={650} />
+        <Image src='/images/index/mainIconsdark.png' alt='work icons' height={650} width={650} />
+        <Image className='absolute top-6 left-[6.5rem] rounded-xl' src="/images/index/books.jpg" alt='icons' width={70} height={70} />
+        <Image className='absolute top-[9rem] left-[10rem] rounded-xl' src="/images/index/group.jpg" alt='icons' width={80} height={70} />
+        <Image className='absolute top-[4rem] rounded-xl' src="/images/index/science.jpg" alt='icons' width={90} height={90} />
+        <Image className='absolute rounded-xl left-[11.5rem]' src="/images/index/students.jpg" alt='icons' width={90} height={90} />
+        <Image className='absolute rounded-xl left-[20rem] bottom-[13rem]' src="/images/index/compter.jpg" alt='icons' width={90} height={90} />
+        <Image className='absolute rounded-xl left-[6rem] bottom-[9rem]' src="/images/index/school.jpg" alt='icons' width={90} height={90} />
       </motion.div> */}
 
     </motion.div>

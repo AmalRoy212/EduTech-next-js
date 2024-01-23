@@ -7,7 +7,7 @@ import SummitAttendees from "../attendies/Attedies";
 
 const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full md:h-full h-[135vh]">
+    <div id="attendies" className="flex flex-row relative items-center justify-center min-h-screen w-full md:h-full h-[135vh]">
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
