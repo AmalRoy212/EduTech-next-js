@@ -37,7 +37,7 @@ function HeroContent() {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className='text-lg text-gray-400 my-5 max-w-[600px]'
+          className='text-lg text-gray-400 my-5 max-w-[600px] text-justify'
         >
           The Global Future Education Summit is a premier gathering of educators, policymakers, and innovators worldwide. It's a platform for discussing the future of education, embracing technological advancements, and sharing insights to shape innovative learning approaches. Through workshops, keynotes, and collaborations, it aims to drive meaningful changes in education globally.
         </motion.p>

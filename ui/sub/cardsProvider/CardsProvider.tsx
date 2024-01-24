@@ -26,7 +26,7 @@ function CardsProvider({ data, index }: ICards) {
         <h5 className="w-full flex justify-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
          {data.title}
         </h5>
-        <p className="text-center block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+        <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit text-justify">
           {data.content}
         </p>
       </div>

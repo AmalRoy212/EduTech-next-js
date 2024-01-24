@@ -44,7 +44,7 @@ function WhyShould() {
     return (
         <div className='w-full h-auto z-[19] flex flex-col p-10' >
             <div className="text-[40px] font-medium text-center text-gray-200">
-                Why
+                Who
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                     {" "}
                     should{" "}
