@@ -33,14 +33,14 @@ const HoverButton = ({ type }: Iprops) => {
       )}
 
       {type === "contact" && (
-        <button className="text-white relative group">
-          <MdPermContactCalendar size={30} />
-          <span className="hidden absolute top-full left-1/2 transform -translate-x-1/2 bg-gray-800 text-white p-2 rounded-md group-hover:block">
-            <a className="w-full px-5 py-1 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-2 text-[10px]">
-              Contact
+       <button className="text-white relative group">
+       <MdPermContactCalendar size={30} />
+       <span className="hidden flex-col-reverse absolute top-full p-5 transform -translate-x-1/2 bg-slate-800 text-white rounded-lg group-hover:block">
+       <a className="w-full px-5 py-1 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
+                Contact
             </a>
-          </span>
-        </button>
+       </span>
+     </button>
       )}
 
       {type === "person" && (
