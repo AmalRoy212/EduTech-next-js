@@ -6,7 +6,7 @@ import { BsFillMenuButtonWideFill } from "react-icons/bs";
 
 function Navbar() {
   return (
-    <div className='w-[100%] h-[65px] fixed top-0 shadow-lg shadow-[#2ADE61]/50 bg-[#03001417] backdrop-blur-md z-[50] px-2 md:px-10'>
+    <div className='w-[100%] h-[65px] fixed top-0  bg-[#03001417] backdrop-blur-md z-[50] px-2 md:px-10'>
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about-me"
@@ -48,7 +48,7 @@ function Navbar() {
           <HoverButton type={'contact'}/>
           <HoverButton type={'person'}/>
         </div>
-        <button className='text-white md:hidden flex'>
+        <button className='text-white md:hidden flex' >
           <BsFillMenuButtonWideFill size={30}/>
         </button>
       </div>
