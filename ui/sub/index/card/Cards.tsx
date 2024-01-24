@@ -32,7 +32,7 @@ const Cards = ({ src, title, description, index }: Props) => {
 
       <div className="relative p-4 bg-gray-800 bg-opacity-90 backdrop-blur-md h-full w-full">
         <h1 className="text-2xl font-bold text-white">{title}</h1>
-        <p className="mt-2 text-gray-100 text-[14px] ">{description}</p>
+        <p className="mt-2 text-gray-100 text-[14px] text-justify">{description}</p>
       </div>
     </div>
   );

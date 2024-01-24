@@ -22,12 +22,6 @@ const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="absolute z-[20] md:top-[3rem] top-[8rem]  px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Who will be attending the event ?
-        </div>
-      </div>
-
       <div className="flex flex-row items-center md:mt-[8rem] absolute z-[20] w-full h-auto">
         <SummitAttendees />
       </div>
