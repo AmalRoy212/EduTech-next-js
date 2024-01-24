@@ -3,6 +3,7 @@ import HoverButton from '@/ui/sub/hoverButton/HoverButton';
 import Image from 'next/image'
 import React from 'react'
 import { BsFillMenuButtonWideFill } from "react-icons/bs";
+import MobileNav from '../mobileNav/MobileNav';
 
 function Navbar() {
   return (
@@ -52,8 +53,11 @@ function Navbar() {
           <BsFillMenuButtonWideFill size={30}/>
         </button>
       </div>
+      <MobileNav/>
     </div>
+
   )
+  
 }
 
 export default Navbar
