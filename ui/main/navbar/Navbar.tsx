@@ -13,23 +13,25 @@ function Navbar() {
   const [popup, setPopup] = useState(false)
 
   return (
-    <div className='w-[100%] h-[65px] fixed top-0  bg-[#03001417] backdrop-blur-md z-[50] px-2 md:px-10'>
+    <div className='w-[100%] h-[65px] fixed top-0 bg-[#03001417] backdrop-blur-md z-[50] px-2 md:px-10'>
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
+            data-aos='flip-right'
+            data-aos-duration={600}
             src="/images/logos/GG_WHITE.png"
             alt="logo"
-            width={70}
-            height={70}
+            width={90}
+            height={90}
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+          {/* <span className="font-bold ml-[10px] hidden md:block text-gray-300">
             GENFINITY GLOBAL
-          </span>
+          </span> */}
         </a>
 
         <div className='w-[500px] h-full hidden md:flex flex-row items-center justify-between md:mr-20'>
