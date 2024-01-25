@@ -1,10 +1,17 @@
-import { Socials } from '@/constants/data'
+
+'use client'
+
 import HoverButton from '@/ui/sub/hoverButton/HoverButton';
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import { BsFillMenuButtonWideFill } from "react-icons/bs";
+import MobileNav from '../mobileNav/MobileNav';
+import { IoCloseCircleSharp } from "react-icons/io5";
 
 function Navbar() {
+
+  const [popup, setPopup] = useState(false)
+
   return (
     <div className='w-[100%] h-[65px] fixed top-0  bg-[#03001417] backdrop-blur-md z-[50] px-2 md:px-10'>
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
@@ -44,16 +51,29 @@ function Navbar() {
               height={24}
             />
           ))} */}
-          <HoverButton type={'social'}/>
-          <HoverButton type={'contact'}/>
-          <HoverButton type={'person'}/>
+          <HoverButton type={'social'} />
+          <HoverButton type={'contact'} />
+          <HoverButton type={'person'} />
         </div>
-        <button className='text-white md:hidden flex' >
-          <BsFillMenuButtonWideFill size={30}/>
-        </button>
+        {
+          popup ? (<button data-aos='flip-up'  onClick={() => setPopup(false)} className='text-white md:hidden flex' >
+            <IoCloseCircleSharp size={30} />
+          </button>) : (
+            <button data-aos='flip-down'  data-aos-duration={900} onClick={() => setPopup(true)} className='text-white md:hidden flex' >
+              <BsFillMenuButtonWideFill size={30} />
+            </button>
+          )
+        }
+
+
       </div>
+      {
+        popup && <MobileNav setPopup={setPopup}/>
+      }
     </div>
+
   )
+
 }
 
 export default Navbar
