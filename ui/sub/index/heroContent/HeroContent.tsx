@@ -10,6 +10,7 @@ import {
 import { SparklesIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 import Link from "next/link";
+import Counter from "../../counter/Counter";
 
 function HeroContent() {
   return (
@@ -46,6 +47,7 @@ function HeroContent() {
             </div>
           </div>
         </motion.div>
+        <Counter/>
 
         <Image src='/images/index/mainIconsdark.png' className="absolute top-0" alt='work icons' height={650} width={650} />
       </motion.div>
@@ -74,7 +76,7 @@ function HeroContent() {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px] text-justify"
+          className="text-lg text-gray-400 my-5 max-w-[600px] md:mt-[0] mt-[10rem] text-justify"
         >
           The Global Future Education Summit is a premier gathering of
           educators, policymakers, and innovators worldwide. It's a platform for
@@ -95,11 +97,11 @@ function HeroContent() {
       <motion.div
         variants={slideInFromRight(0.8)}
         className="relative w-full h-auto hidden md:flex justify-center items-center"
-      >
+        >
         <motion.div
           variants={slideInFromRight(0.9)}
           className="flex flex-col gap-6 mt-6 text-5xl md:text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
-        >
+          >
           <div className="w-full h-[80vh] flex flex-col justify-center items-center pb-[5rem] px-10">
             <div >
               <span className="text-center text-4xl">
@@ -107,29 +109,23 @@ function HeroContent() {
                 {/* <span className='text-transparent text-[30px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>7 - 8 AUGUST BANGALORE</span> */}
               </span>
             </div>
-            <div className="w-full h-auto flex flex-row gap-3">
-              <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[16px] hover:from-cyan-500 hover:to-purple-500">
-                Sponsors
-              </button>
-              <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[16px] hover:from-cyan-500 hover:to-purple-500">
-                Speakers
-              </button>
-              <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[16px] hover:from-cyan-500 hover:to-purple-500">
-                Delegates
-              </button>
-            </div>
+              <div className="w-full h-auto flex flex-row gap-3">
+                <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-2 shadow-md shadow-[#7042f861]/50  rounded-xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-00 mt-4 text-[16px] hover:from-cyan-500 hover:to-purple-500">
+                  Sponsors
+                </button>
+                <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50  rounded-xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-00 mt-4 text-[16px] hover:from-cyan-500 hover:to-purple-500">
+                  Speakers
+                </button>
+                <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50  rounded-xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-00 mt-4 text-[16px] hover:from-cyan-500 hover:to-purple-500">
+                  Delegates
+                </button>
+              </div>
           </div>
+          <Counter/>
         </motion.div>
-
-        <Image src='/images/index/mainIconsdark.png' className="absolute top-0" alt='work icons' height={650} width={650} />
-        {/* <Image className='absolute top-6 left-[6.5rem] rounded-xl' src="/images/index/books.jpg" alt='icons' width={70} height={70} />
-        <Image className='absolute top-[9rem] left-[10rem] rounded-xl' src="/images/index/group.jpg" alt='icons' width={80} height={70} />
-        <Image className='absolute top-[4rem] rounded-xl' src="/images/index/science.jpg" alt='icons' width={90} height={90} />
-        <Image className='absolute rounded-xl left-[11.5rem]' src="/images/index/students.jpg" alt='icons' width={90} height={90} />
-        <Image className='absolute rounded-xl left-[20rem] bottom-[13rem]' src="/images/index/compter.jpg" alt='icons' width={90} height={90} />
-        <Image className='absolute rounded-xl left-[6rem] bottom-[9rem]' src="/images/index/school.jpg" alt='icons' width={90} height={90} /> */}
       </motion.div>
     </motion.div>
+
   );
 }
 

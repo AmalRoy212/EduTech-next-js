@@ -56,10 +56,10 @@ function Navbar() {
           <HoverButton type={'person'} />
         </div>
         {
-          popup ? (<button onClick={() => setPopup(false)} className='text-white md:hidden flex' >
+          popup ? (<button data-aos='flip-up'  onClick={() => setPopup(false)} className='text-white md:hidden flex' >
             <IoCloseCircleSharp size={30} />
           </button>) : (
-            <button onClick={() => setPopup(true)} className='text-white md:hidden flex' >
+            <button data-aos='flip-down'  data-aos-duration={900} onClick={() => setPopup(true)} className='text-white md:hidden flex' >
               <BsFillMenuButtonWideFill size={30} />
             </button>
           )
