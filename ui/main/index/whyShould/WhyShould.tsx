@@ -51,7 +51,7 @@ function WhyShould() {
                 </span>
                 attend?
             </div>
-            <div className='w-full h-auto md:flex  pt-[5rem] gap-5 '>
+            <div className='w-full h-auto md:flex  pt-[5rem] md:gap-5 '>
                 {data.slice(0, 2).map((dat,index) => (
                   <WhyCards key={index} heading={dat.heading} content={dat.content}/>
                 ))}

@@ -10,9 +10,9 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className="rotate-180 absolute hidden md:block md:top-[-90px]  h-full w-full left-0 z-[1] object-cover "
+        className="rotate-180 absolute hidden md:block md:top-[-298px]  h-full w-full left-0 z-[1] object-cover "
       >
-        <source src="/videos/blackhole.mp4" type="video/webm" />
+        <source src="/videos/blackhole.webm" type="video/webm" />
       </video>
       <HeroContent />
     </div>

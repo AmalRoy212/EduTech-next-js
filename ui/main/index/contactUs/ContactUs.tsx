@@ -3,7 +3,7 @@ import React from 'react'
 
 function ContactUs() {
   return (
-    <div className='w-full h-[auto] pt-10 '>
+    <div className='w-full h-auto pt-10 '>
         <div className='w-full h-auto flex justify-center items-center'>
             <div className='md:w-1/2 w-full h-auto p-10 '></div>
         </div>

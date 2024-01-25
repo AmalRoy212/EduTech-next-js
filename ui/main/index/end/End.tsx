@@ -7,9 +7,9 @@ import React from 'react'
 
 function End() {
     return (
-        <div className='w-full h-[140vh] md:h-screen overflow-hidden flex justify-center items-center'>
+        <div className='w-full h-[140vh] mt-[-20rem] md:mt-0 overflow-hidden flex justify-center items-center'>
             <div className="flex flex-row relative items-center justify-center min-h-screen w-full md:h-full h-[135vh]">
-                <div className="absolute w-auto h-auto top-0 z-[5]">
+                <div className="absolute w-auto h-auto top-0 z-[19]">
                     <motion.div
                         variants={slideInFromTop}
                         className="text-[40px] font-medium text-center text-gray-200"
@@ -23,8 +23,8 @@ function End() {
                     </motion.div>
                 </div>
 
-                <div style={{ backgroundColor: "rgba(3, 0, 20, 0.674)" }} className='w-[90%] h-[65%] rounded-xl absolute top-[11rem] flex justify-center items-center z-[9]'>
-                    <p className='text-[14px] text-slate-400 p-10 text-justify'>
+                <div style={{ backgroundColor: "rgba(3, 0, 20, 0.674)" }} className='md:w-[90%] mt-[-7rem] md:mt-[-1rem] h-[65%] rounded-xl absolute top-[11rem] flex justify-center items-center z-[9]'>
+                    <p className='text-[14px] text-slate-400 p-5 md:p-10 text-justify'>
                         Live interactive workshops organized by ParXcellence will be held at EduTech Oman 2040 conference. The objective is to empower educators on various advancements in the education and training sector. It is a series of professional development workshops for educators in Oman. Power-packed sessions are conducted over 2 days. The workshops are attended by teachers, trainers, senior management, academicians and professors of education institutions from all across the country.
 
                         EduTech Oman 2040 Workshops allow teachers, trainers and faculty members to explore multiple facets of:
@@ -37,7 +37,7 @@ function End() {
                     </p>
                 </div>
 
-                <div className="w-full h-[120vh] items-start justify-center top-[8rem] absolute hidden md:flex">
+                <div className="w-full h-[100vh] items-start justify-center top-[8rem] absolute hidden md:flex">
                     <video
                         loop
                         muted
