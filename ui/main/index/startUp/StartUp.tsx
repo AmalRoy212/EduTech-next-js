@@ -11,7 +11,7 @@ function StartUp() {
         </span>
         Startups to Success 
       </div>
-      <div className="md:h-[80vh] md:w-[70%] px-5 absolute bg-black md:mt-[10rem]">
+      <div className="md:h-[99vh] md:w-[78%] px-5 absolute bg-black md:mt-[10rem]">
             <p className="text-slate-400 md:p-10 text-justify flex w-full h-full justify-center items-center">
             Starup Pitch Competition serves as a premier fundraising platform, catering to companies in various stages of development. Whether you are in the initial stages of launching your business or an established entity aiming for expansion, this platform offers an exclusive opportunity. Here, you can present your business propositions before a distinguished audience, comprising global investors such as venture capitalists, angel investors, and influential government authorities. It stands as a professional avenue for securing financial support and advancing your business endeavors
             </p>

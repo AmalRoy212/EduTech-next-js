@@ -17,7 +17,7 @@ const Card = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-      className="flex flex-col items-center justify-center py-20 mt-[-10rem]"
+      className="flex flex-col items-center justify-center py-20 md:mt-[-10rem] mt-[-18rem]"
       id="happening"
     >
       <Headers first="HAPPENINGS" middle="&" last="INSIGHTS" />
