@@ -40,7 +40,7 @@ function DetailsProvider() {
             journeys, perspectives and promote networking and collaboration between likeminded peers. The conference 
             will also spotlight disruptive technologies, policy making, innovations, researches and tools and practices
             that have the potential to reshape the 
-              <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-purple-500 to-cyan-500'> future</span>
+              <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-purple-500 to-cyan-500'> future </span>
             of learning. 
         </p>
       </div>
