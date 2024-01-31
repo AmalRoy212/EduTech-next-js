@@ -53,14 +53,9 @@ const Footer = () => {
             </a>                                              
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[999]">
-            <div className="font-bold text-[16px]">About</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
 
-              <span className="text-[15px] ml-[6px]">Become Sponsor</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-
-              <span className="text-[15px] ml-[6px]">Learn More</span>
+              <span className="text-[15px] font-bold ml-[6px]">Learn More</span>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
 
@@ -70,7 +65,7 @@ const Footer = () => {
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; 2023 All rights reserved Genfinity Global
+          &copy; 2024 All rights reserved by Genfinity Global
         </div>
       </div>
     </div>

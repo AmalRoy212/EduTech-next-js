@@ -48,7 +48,7 @@ export const Counter: React.FC<ICounter> = ({ label, countTo, duration, index })
       <div className="w-[150px] h-[150px] flex justify-center items-center rounded-full bg-gradient-to-r from-purple-500 to-cyan-500">
         <span className="font-large text-5xl text-white">
           {" "}
-          {counterValue}{" "}
+          {counterValue}{"+"}
         </span>
       </div>
     </div>

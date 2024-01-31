@@ -41,7 +41,7 @@ function HeroContent() {
                 </button>
               </div>
               <span className="text-center text-xl w-full ml-3">
-                7 - 8 AUGUST BANGALORE
+                7 - 8 AUGUST BENGALURU
                 {/* <span className='text-transparent text-[30px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>7 - 8 AUGUST BANGALORE</span> */}
               </span>
             </div>
@@ -57,7 +57,7 @@ function HeroContent() {
           className="Welcome-box py-[8px] px-[7px] md:flex hidden border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px] px-5">BANGALORE</h1>
+          <h1 className="Welcome-text text-[13px] px-5">BENGALURU</h1>
         </motion.div>
 
         <motion.div
@@ -105,7 +105,7 @@ function HeroContent() {
           <div className="w-full h-[80vh] flex flex-col justify-center items-center pb-[5rem] px-10">
             <div >
               <span className="text-center text-4xl">
-                7 - 8 AUGUST BANGALORE
+                7 - 8 AUGUST BENGALURU
                 {/* <span className='text-transparent text-[30px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>7 - 8 AUGUST BANGALORE</span> */}
               </span>
             </div>
