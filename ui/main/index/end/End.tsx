@@ -38,7 +38,7 @@ function End() {
 
                        
                 </div>
-                <button className='w-[120px] absolute md:bottom-[10rem]  bottom-[23rem] z-[20] h-[35px] cursor-pointer shadow-md shadow-[#7042f861]/50 text-white rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-800 to-transparent mt-4 text-[16px] hover:from-transparent hover:to-purple-800'>
+                <button className='w-[120px] absolute md:bottom-[10rem] lg:bottom-[10rem]  bottom-[23rem] z-[20] h-[35px] cursor-pointer shadow-md shadow-[#7042f861]/50 text-white rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-800 to-transparent mt-4 text-[16px] hover:from-transparent hover:to-purple-800'>
                             Register now
                         </button>
 
