@@ -98,7 +98,7 @@ function Cards() {
 
   return (
     <>
-      <div className="text-[40px] z-[999] font-medium text-center text-gray-200">
+      <div className="text-[40px] z-[9] font-medium text-center text-gray-200">
         Who
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
           {" "}
