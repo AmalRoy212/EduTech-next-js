@@ -22,7 +22,7 @@ const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="flex flex-row items-center md:mt-[8rem] absolute z-[20] w-full h-auto">
+      <div className="flex flex-row items-center lg:mt-0 md:mt-[8rem] absolute z-[20] w-full h-auto">
         <SummitAttendees />
       </div>
       {/* <div className="absolute z-[20] md:bottom-[10px] bottom-[0]  px-[5px]">
