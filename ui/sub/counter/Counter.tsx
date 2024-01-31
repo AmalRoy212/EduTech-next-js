@@ -11,7 +11,7 @@ function Counter() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       const currentDate = Date.now(); // current timestamp in milliseconds
-      const eventDate = new Date("2024-05-05").getTime(); // event date timestamp in milliseconds
+      const eventDate = new Date("2024-08-07").getTime(); // event date timestamp in milliseconds
 
       const timeDifference = eventDate - currentDate;
 
