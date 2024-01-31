@@ -87,7 +87,7 @@ function Cards() {
       value : 78
     },
     {
-      title : "HENTERPRISE COMPANIES 36%",
+      title : "ENTERPRISE COMPANIES 36%",
       value : 36
     },
     {
