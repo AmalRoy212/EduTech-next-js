@@ -7,7 +7,7 @@ import React from 'react'
 
 function End() {
     return (
-        <div className='w-full h-[140vh] mt-[-20rem] md:mt-0 overflow-hidden flex justify-center items-center'>
+        <div className='w-full h-[140vh] mt-[-10rem] md:mt-0 overflow-hidden flex justify-center items-center'>
             <div className="flex flex-row relative items-center justify-center min-h-screen w-full md:h-full h-[135vh]">
                 <div className="absolute w-auto h-auto top-0 z-[19]">
                     <motion.div
@@ -23,8 +23,8 @@ function End() {
                     </motion.div>
                 </div>
 
-                <div style={{ backgroundColor: "rgba(3, 0, 20, 0.674)" }} className='w-full h-[65%] rounded-xl absolute top-[11rem] flex justify-center items-center z-[9]'>
-                    <p className='text-[14px] text-slate-400 px-5 md:mt-0 mt-[-5rem] md:p-10 text-justify'>
+                <div style={{ backgroundColor: "rgba(3, 0, 20, 0.674)" }} className='w-full md:w-[70%] h-[60%] rounded-xl absolute top-[11rem] flex-col justify-center items-center md:px-[50px] z-[9]'>
+                    <p className='text-[14px] text-slate-400 px-5 md:mt-[10rem] mt-[2rem] md:p-10 text-justify'>
                         Live interactive workshops organized by ParXcellence will be held at EduTech Oman 2040 conference. The objective is to empower educators on various advancements in the education and training sector. It is a series of professional development workshops for educators in Oman. Power-packed sessions are conducted over 2 days. The workshops are attended by teachers, trainers, senior management, academicians and professors of education institutions from all across the country.
 
                         EduTech Oman 2040 Workshops allow teachers, trainers and faculty members to explore multiple facets of:
@@ -35,7 +35,14 @@ function End() {
 
                         Enhancing Teaching and Learning, Exploring aspects in using and implementing of technological advancements, Meeting Faculty development and technology needs, Formulating and discussing new initiatives.
                     </p>
+
                 </div>
+                <div className='w-full h-auto z-[99] flex justify-center mt-[17rem] '>
+                    <button className='w-[120px]  h-[35px] cursor-pointer shadow-md shadow-[#7042f861]/50 text-white rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-800 to-transparent mt-4 text-[16px] hover:from-transparent hover:to-purple-800'>
+                        Register now
+                    </button>
+                </div>
+
 
                 <div className="w-full h-[100vh] items-start justify-center top-[8rem] absolute hidden md:flex">
                     <video

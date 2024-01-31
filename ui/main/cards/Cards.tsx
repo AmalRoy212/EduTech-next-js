@@ -71,34 +71,42 @@ function Cards() {
 
   const progressBarData = [
     {
-      title : "HEAD OF SCHOOL 25%",
-      value : 25
+      title: "HEAD OF SCHOOL 25%",
+      value: 25
     },
     {
-      title : "MINISTRIES & AUTHORITIES 40%",
-      value : 40
+      title: "MINISTRIES & AUTHORITIES 40%",
+      value: 40
     },
     {
-      title : "KEY STAKEHOLDERS 50%",
-      value : 50
+      title: "KEY STAKEHOLDERS 50%",
+      value: 50
     },
     {
-      title : "INVESTORS & OWNERS 78%",
-      value : 78
+      title: "INVESTORS & OWNERS 78%",
+      value: 78
     },
     {
-      title : "ENTERPRISE COMPANIES 36%",
-      value : 36
+      title: "ENTERPRISE COMPANIES 36%",
+      value: 36
     },
     {
-      title : "HEAD OF DEPARTMENTS 46%",
-      value : 46
+      title: "HEAD OF DEPARTMENTS 46%",
+      value: 46
     },
   ]
 
   return (
     <>
-      <div className="md:flex mt-[-3rem] mr-8 md:mr-0 flex-row justify-center items-center px-10">
+      <div className="text-[40px] lg:mt-[-8rem] font-medium text-center text-gray-200">
+        Who
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          {" "}
+          should{" "}
+        </span>
+        attend?
+      </div>
+      <div className="md:flex lg:mt-[-6rem] mr-8 md:mr-0 flex-row justify-center items-center px-10">
         {currentCardData.map((data, index) => (
           <CardsProvider key={index} data={data} index={index} />
         ))}
@@ -141,7 +149,7 @@ function Cards() {
             <SubHeadings fontSize={10} heading="BY JOB TITLE" />
           </div>
           {progressBarData.map((data, index) => (
-            <ProgressBar key={index} value={data.value} maxValue={100} index={index} title={data.title}/>
+            <ProgressBar key={index} value={data.value} maxValue={100} index={index} title={data.title} />
           ))}
         </div>
       </div>
