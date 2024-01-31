@@ -15,7 +15,7 @@ function CardsProvider({ data, index }: ICards) {
     <div 
      
      data-aos="zoom-in" 
-     className="relative z-[29] m-5 flex flex-col mt-6 text-gray-200 shadow-md bg-clip-border lg:h-[40vh] md:h-[60vh] h-[40vh] rounded-xl md:w-1/3 w-full backdrop-blur-10"
+     className="relative z-[29] m-5 flex flex-col mt-6 text-gray-200 shadow-md bg-clip-border md:h-[60vh] h-[40vh] rounded-xl md:w-1/3 w-full backdrop-blur-10"
     >
       <div className="p-6"> 
         <div className="w-full flex justify-center">

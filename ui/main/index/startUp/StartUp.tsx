@@ -11,7 +11,7 @@ function StartUp() {
         </span>
         Startups to Success
       </div>
-      <div className="lg:h-[76vh] lg:mt-[-2rem] md:h-[99vh] md:w-[78%] px-5 absolute bg-black md:mt-[10rem]">
+      <div className="md:h-[99vh] md:w-[78%] px-5 absolute bg-black md:mt-[10rem]">
         <h1 className="text-white text-center text-[20px] absolute md:mt-[10rem] mt-[1rem] md:ml-[220px]">Stand a chance to win Genfinity credit valued at upto 
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold"> $9999</span>
         </h1>

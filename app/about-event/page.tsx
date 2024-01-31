@@ -6,9 +6,7 @@ import Counter from '@/ui/sub/counter/Counter'
 function page() {
     return (
         <>
-            {/* <DetailsHolder/> */}
-            {/* <Why/> */}
-            <Counter/>
+           
         </>
     )
 }
