@@ -13,7 +13,7 @@ function Cards() {
         "Government institutions and regulators responsible for setting standards and framework for the education eco-system",
     },
     {
-      img: "/images/cards/Collage.png",
+      img: "/images/cards/collage.png",
       title: "Head of Educational Institutions",
       content:
         "Executive Principal, Principal, Head Teacher, Deputy Head, Head of Primary & Secondary, Head of Universities etc",
