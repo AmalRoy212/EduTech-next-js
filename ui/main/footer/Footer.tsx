@@ -53,16 +53,16 @@ const Footer = () => {
             </a>                                              
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[999]">
-            <p data-aos="fade-right" data-aos-duration={900} className="flex flex-row items-center my-[15px] cursor-pointer">
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] font-bold ml-[6px]">Learn More</span>
             </p>
-            <p data-aos="fade-right" data-aos-duration={1000} className="flex flex-row items-center my-[15px] cursor-pointer">
+            <p data-aos="fade-right" data-aos-duration={900} className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">	info@genfinityglobal.com</span>
             </p>
           </div>
         </div>
 
-        <div data-aos="fade-right" data-aos-duration={1100} className="mb-[20px] text-[15px] text-center">
+        <div data-aos="fade-right" data-aos-duration={1000} className="mb-[20px] text-[15px] text-center">
           &copy; 2024 All rights reserved by Genfinity Global
         </div>
       </div>
