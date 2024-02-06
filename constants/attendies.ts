@@ -1,6 +1,6 @@
 export const attendies_Data = [
   {
-    label : "PREQUALIFIED DELEGATEs",
+    label : "PREQUALIFIED DELEGATES",
     toCount : 350
   },
   {

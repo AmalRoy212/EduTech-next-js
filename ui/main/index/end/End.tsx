@@ -12,6 +12,8 @@ function End() {
                 <div className="absolute w-auto h-auto top-0 z-[19]">
                     <motion.div
                         variants={slideInFromTop}
+                        initial="hidden"
+                        whileInView="visible"
                         className="text-[40px] font-medium text-center text-gray-200"
                     >
                         WORKSHOPS AT
@@ -25,10 +27,10 @@ function End() {
 
                 <div className='w-full h-full flex justify-center items-center'>
                     <div style={{ backgroundColor: "rgba(3, 0, 20, 0.674)" }} className='md:w-[70%] w-full h-[75%] rounded-xl absolute top-[11rem] flex-col justify-center items-center md:px-[50px] z-[9]'>
-                        <p className='text-[14px] text-slate-400 px-5  mt-[2rem] md:p-10 text-justify'>
-                            Live interactive workshops organized by ParXcellence will be held at EduTech Oman 2040 conference. The objective is to empower educators on various advancements in the education and training sector. It is a series of professional development workshops for educators in Oman. Power-packed sessions are conducted over 2 days. The workshops are attended by teachers, trainers, senior management, academicians and professors of education institutions from all across the country.
+                        <p className='text-[14px] md:px-[5rem] text-slate-400 px-5  mt-[2rem] md:p-10 text-justify'>
+                            Live interactive workshops organized by Genifinty Global will be held at Global Future Education Summit 2024 conference. The objective is to empower educators on various advancements in the education and training sector. It is a series of professional development workshops for educators in Oman. Power-packed sessions are conducted over 2 days. The workshops are attended by teachers, trainers, senior management, academicians and professors of education institutions from all across the country.
 
-                            EduTech Oman 2040 Workshops allow teachers, trainers and faculty members to explore multiple facets of:
+                            Global Future Education Summit 2024 Workshops allow teachers, trainers and faculty members to explore multiple facets of:
 
                             Implementation and impact of technological advancements, Curriculum changes, Inclusive environments. Sports integration and Other breakthroughs, both internationally and nationally.
 
@@ -53,6 +55,7 @@ function End() {
                         preload="false"
                         className="w-full h-auto object-cover"
                         src="/videos/endObe.mp4/"
+                        data-aos="fade-up" data-aos-duration={200}
                     />
                 </div>
             </div>
