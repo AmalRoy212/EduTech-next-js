@@ -41,8 +41,8 @@ function Topics({ data, index }: Topic) {
       className="relative w-full md:w-1/6 flex flex-col-reverse justify-center items-center border-gradient-blue-purple m-3 p-5 cursor-pointer z-[20]"
       style={{ height: '200px' }}
     >
-      <div className="absolute top-0 p-2 flex justify-center items-center h-[50%]">
-        <Image src={data.img} alt="image" width={90} height={90} />
+      <div className="absolute top-0 p-2 flex justify-center items-center h-[50%] overflow-hidden">
+        <Image src={data.img} alt="image" width={120} height={120} />
       </div>
       <div className="absolute bottom-0 p-3 text-slate-300 flex justify-center items-center w-full h-[50%]">
         <p className="text-[13px]">{data.dis}</p>

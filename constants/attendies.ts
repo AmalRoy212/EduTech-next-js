@@ -8,6 +8,10 @@ export const attendies_Data = [
     toCount : 30
   },
   {
+    label : "ORGANIZATIONS",
+    toCount : 100
+  },
+  {
     label : "SPONSORS & PARTNERS",
     toCount : 25
   },

@@ -99,12 +99,12 @@ function Cards() {
   return (
     <>
       <div className="text-[40px] z-[9] font-medium text-center text-gray-200">
-        Who
+        WHO
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
           {" "}
-          should{" "}
+          SHOULD{" "}
         </span>
-        attend?
+        ATTENT ?
       </div>
       <div className="md:flex md:mt-[-6rem] mr-8 md:mr-0 flex-row justify-center items-center px-10">
         {currentCardData.map((data, index) => (

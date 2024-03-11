@@ -10,7 +10,7 @@ import IDetailHeading from './IDetailHeading'
 function DetailHeading({ nanoHeading, mainHeading, miniHeading} : IDetailHeading) {
     return (
         <div className='w-full h-auto flex flex-col items-center justify-center'>
-            <motion.div
+            {/* <motion.div
                 variants={slideInFromTop}
                 className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
             >
@@ -18,7 +18,7 @@ function DetailHeading({ nanoHeading, mainHeading, miniHeading} : IDetailHeading
                 <h1 className='Welcome-text text-[13px] mx-5'>
                     {nanoHeading && nanoHeading}
                 </h1>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div
                 variants={slideInFromLeft(0.5)}
