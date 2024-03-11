@@ -86,12 +86,12 @@ function HeroContent() {
           to drive meaningful changes in education globally.
         </motion.p>
 
-        <motion.div
+        {/* <motion.div
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           <Link href={"/about-event"}>Learn More!</Link>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       <motion.div
