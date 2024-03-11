@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div data-aos="fade-right" data-aos-duration={1000} className="mb-[20px] text-[15px] text-center">
+        <div className="mb-[20px] text-[15px] text-center">
           &copy; 2024 All rights reserved by Genfinity Global
         </div>
       </div>
