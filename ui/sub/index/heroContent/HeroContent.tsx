@@ -31,17 +31,17 @@ function HeroContent() {
             <div >
               <div className="w-full h-auto flex gap-3">
                 <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-900 to-cyan-800 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
-                  Sponsors Enquiry
+                  SPONSORS ENQUIRY
                 </button>
                 <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-900 to-cyan-800 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
-                  Speakers Enquiry
+                  SPEAKERS ENQUIRY
                 </button>
                 <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-900 to-cyan-800 mt-4 text-[10px]  hover:from-cyan-500 hover:to-purple-500">
-                  Delegates Enquiry
+                  BUY TICKETS
                 </button>
               </div>
-              <span className="text-center text-xl w-full ml-3">
-                7 - 8 AUGUST BENGALURU
+              <span className="text-center text-xl w-full ml-3 flex justify-center items-center mt-9">
+                8th AUGUST 2024 BENGALURU, INDIA
                 {/* <span className='text-transparent text-[30px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>7 - 8 AUGUST BANGALORE</span> */}
               </span>
             </div>
@@ -52,13 +52,13 @@ function HeroContent() {
         {/* <Image src='/images/index/mainIconsdark.png' className="absolute top-0" alt='work icons' height={650} width={650} /> */}
       </motion.div>
       <div className="h-full w-full flex flex-col mt-[-50px] md:mt-[0px] gap-5  justify-center text-start">
-        <motion.div
+        {/* <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] md:flex hidden border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px] px-5">BENGALURU</h1>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           variants={slideInFromLeft(0.5)}
@@ -102,22 +102,22 @@ function HeroContent() {
           variants={slideInFromRight(0.9)}
           className="flex flex-col gap-6 mt-6 text-5xl md:text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
           >
-          <div className="w-full h-[80vh] flex flex-col justify-center items-center pb-[5rem] px-10">
+          <div className="w-full h-[80vh] flex flex-col justify-center items-center pb-[5rem] px-10 pt-10">
             <div >
               <span className="text-center text-4xl">
-                7 - 8 AUGUST BENGALURU
+              8th AUGUST 2024 <br /> BENGALURU, INDIA
                 {/* <span className='text-transparent text-[30px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>7 - 8 AUGUST BANGALORE</span> */}
               </span>
             </div>
               <div className="w-full h-auto flex flex-row gap-3">
                 <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-2 shadow-md shadow-[#7042f861]/50  rounded-xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-00 mt-4 text-[16px] hover:from-cyan-500 hover:to-purple-500">
-                  Sponsors
+                  SPONSORS ENQUIRY
                 </button>
                 <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50  rounded-xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-00 mt-4 text-[16px] hover:from-cyan-500 hover:to-purple-500">
-                  Speakers
+                  SPEAKERS ENQUIRY
                 </button>
                 <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50  rounded-xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-00 mt-4 text-[16px] hover:from-cyan-500 hover:to-purple-500">
-                  Delegates
+                  BUY TICKETS
                 </button>
               </div>
           </div>

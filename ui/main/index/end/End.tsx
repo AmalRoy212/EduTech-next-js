@@ -27,7 +27,7 @@ function End() {
                 <div className='w-full h-full flex justify-center items-center'>
                     <div style={{ backgroundColor: "rgba(3, 0, 20, 0.674)" }} className='md:w-[70%] w-full h-[75%] rounded-xl absolute top-[11rem] flex-col justify-center items-center md:px-[50px] z-[9]'>
                         <p className='text-[14px] md:px-[5rem] text-slate-400 px-5  mt-[2rem] md:p-10 text-justify'>
-                            Live interactive workshops organized by Genifinty Global will be held at Global Future Education Summit. The objective is to empower educators on various advancements in the education and training sector. It is a series of professional development workshops for educators in Oman. Power-packed sessions are conducted over 2 days. The workshops are attended by teachers, trainers, senior management, academicians and professors of education institutions from all across the country.
+                            Live interactive workshops organized by Genifinty Global will be held at Global Future Education Summit. The objective is to empower educators on various advancements in the education and training sector. It is a series of professional development workshops for educators in Bengaluru. Power-packed sessions are conducted over 2 days. The workshops are attended by teachers, trainers, senior management, academicians and professors of education institutions from all across the country.
 
                             Global Future Education Summit Workshops allow teachers, trainers and faculty members to explore multiple facets of:
 

@@ -48,7 +48,7 @@ function Cards() {
 
   const progressData = [
     {
-      value: 20,
+      value: 45,
       title: "SCHOOLS",
       color: "primary",
     },
@@ -71,8 +71,8 @@ function Cards() {
 
   const progressBarData = [
     {
-      title: "HEAD OF SCHOOL 25%",
-      value: 25
+      title: "HEAD OF SCHOOL 45%",
+      value: 45
     },
     {
       title: "MINISTRIES & AUTHORITIES 40%",
