@@ -12,7 +12,7 @@ function ContactUs() {
           BY{" "}
         </span>
       </div>
-      <div data-aos="flip-left" data-aos-duration={400} className='w-full h-auto flex flex-row justify-center items-center mt-10'>
+      <div data-aos="flip-left" data-aos-duration={400} className='w-full h-[20vh] flex flex-row justify-center items-center mt-10'>
         <Image src="/images/logos/GG_WHITE.png" alt='image' width={150} height={200} />
         {/* <Image src="/images/logos/eventLogo.png" alt='image' width={200} height={200} /> */}
       </div>

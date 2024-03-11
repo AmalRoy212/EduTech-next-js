@@ -19,7 +19,7 @@ function StartUp() {
           Starup Pitch Competition serves as a premier fundraising platform, catering to companies in various stages of development. Whether you are in the initial stages of launching your business or an established entity aiming for expansion, this platform offers an exclusive opportunity. Here, you can present your business propositions before a distinguished audience, comprising global investors such as venture capitalists, angel investors, and influential government authorities. It stands as a professional avenue for securing financial support and advancing your business endeavors
         </p>
       </div>
-      <div data-aos="zoom-in" data-aos-duration={500} className='w-full h-auto z-[999] flex justify-center mt-[30rem]'>
+      <div data-aos="zoom-in" data-aos-duration={500} className='w-full h-auto z-[7] flex justify-center mt-[30rem]'>
         <button className='w-[120px]  h-[35px] cursor-pointer shadow-md shadow-[#7042f861]/50 text-white rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-800 to-transparent mt-4 text-[16px] hover:from-transparent hover:to-purple-800'>
           Apply now
         </button>

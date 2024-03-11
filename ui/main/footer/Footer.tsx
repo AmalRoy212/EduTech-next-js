@@ -7,11 +7,11 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]  mt-[-10rem] z-[10]">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]  mt-[-10rem] z-[1]">
       <div className="w-full rounded-xl p-10 flex flex-col items-center justify-center m-auto bg-slate-900">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
 
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[999]">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Event Location</div>
             <p data-aos="fade-right" data-aos-duration={200} className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxSewingPin />
@@ -31,7 +31,7 @@ const Footer = () => {
               </p>
             </a>
           </div>
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[999]">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
             <a data-aos="fade-right" data-aos-duration={600} target="_blank" href="https://www.instagram.com/genfinityglobal/">
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
@@ -52,7 +52,7 @@ const Footer = () => {
               </p>
             </a>                                              
           </div>
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[999]">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] font-bold ml-[6px]">Learn More</span>
             </p>
