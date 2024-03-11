@@ -2,17 +2,17 @@ export const cardsDataOne = [
   {
     src : "/images/statics/insightfull-session.jpeg",
     title : "Insightful Sessions",
-    description : "An insightful discussion involves a deep exchange of ideas, perspectives, and information that fosters understanding and critical thinking. It often explores multiple angles, challenges assumptions, and encourages open-mindedness. Valuable insights emerge from such discussions, leading to new conclusions, broader awareness, and potential solutions to complex problems."
+    description : "Immerse yourself in insights from esteemed global tech experts, as they unveil the paramount strategies for attaining unparalleled success within the dynamic realm of the digital landscape. This exclusive occasion offers a gateway to glean wisdom from foremost solution providers worldwide, who will illuminate ingenious pathways towards realizing optimal business outcomes. Don't miss out on this opportunity to navigate the swift currents of the digital age with guidance from industry luminaries"
   },
   {
     src : "/images/statics/tech-usecase.jpeg",
     title : "Technology Use Cases",
-    description :"Technology use cases refer to specific scenarios or situations where technology solutions or tools are applied to address a particular need or problem. These cases demonstrate how technology can be practically utilized across various industries and fields. They serve as examples illustrating the practical application and benefits of technological innovations."
+    description :"New technologies, as they come into use, can change industries a lot. See how different technologies working together can make big changes. Explore such transformational technology use-cases presented by successful early adopters and pioneers within the field of technology innovation"
   },
   {
     src : "/images/statics/exhibitions.avif",
     title : "Tech Exhibitions",
-    description : "Tech exhibitions serve as platforms where the latest advancements, innovations, and products in the technology industry are showcased. These events gather industry professionals, innovators, enthusiasts, and businesses to exhibit and explore cutting-edge technologies, prototypes, and solutions."
+    description : "The Global Future Education Summit in Bengaluru offers a unique opportunity to delve into hundreds of cutting-edge technology solutions. Aimed at government bodies and educational institutions, this summit focuses on building a leaner education system, fostering innovative learning approaches, and equipping our workforce with the skills needed for the future. Join us as we shape the next era of education through transformative technologies"
   }
 ]
 
@@ -20,16 +20,16 @@ export const cardsDataTwo = [
   {
     src : "/images/statics/panel-diss.webp",
     title : "Panel Discussions",
-    description : "Tech exhibitions often host panel discussions as integral components of their programming. These discussions assemble experts, thought leaders, and industry professionals to delve into specific topics, trends, or challenges within the tech sphere."
+    description : "Come together to share and discuss ideas with some of the top experts in the field of Technology. Our group consists of experienced and successful thought leaders from the technology sector, aiming to connect and bridge the gap between new innovations in the tech world"
   },
   {
     src : "/images/statics/b-networking.jpeg",
     title : "Business Networking",
-    description : "Business networking involves establishing and nurturing relationships with other professionals, businesses, or individuals to exchange information, ideas, and opportunities. It's a strategic approach to building connections that can lead to partnerships, collaborations, or new business ventures. Networking occurs through various channels, including in-person events, online platforms, industry gatherings, and social settings."
+    description : "As the world slowly comes back to normal, this series of physical events is bringing together top leaders and decision-makers who are using technology in innovative ways to drive businesses forward while delivering business value, and enhancing the overall customer experience"
   },
   {
     src : "/images/statics/showcase.jpeg",
     title : "Product Showcase",
-    description : "Product showcases are events or presentations where companies or individuals highlight and demonstrate their products or services to an audience. These showcases aim to create awareness, generate interest, and illustrate the features, benefits, and uniqueness of the offerings. They can take various forms, such as physical exhibitions, online demos, presentations, or interactive sessions."
+    description : "The Global Future Education Summit, hosted in Bengaluru, promises to unveil cutting-edge technologies for the education industry. Attendees will witness real-world demonstrations of how Artificial Intelligence (AI), Augmented Reality (AR), Virtual Reality (VR), and other emerging technologies can seamlessly integrate into classrooms and educational institutions. These practical examples will empower educational institutions to harness the full potential of these technologies within their own campuses"
   },
 ]

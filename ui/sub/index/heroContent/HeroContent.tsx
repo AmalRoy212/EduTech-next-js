@@ -31,13 +31,13 @@ function HeroContent() {
             <div >
               <div className="w-full h-auto flex gap-3">
                 <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-900 to-cyan-800 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
-                  SponsorsEnquiry
+                  Sponsors Enquiry
                 </button>
                 <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-900 to-cyan-800 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
-                  SpeakersEnquiry
+                  Speakers Enquiry
                 </button>
                 <button className="w-[1/3] z-[5] flex justify-center items-center px-5 py-1 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-900 to-cyan-800 mt-4 text-[10px]  hover:from-cyan-500 hover:to-purple-500">
-                  Delegates{''}Enquiry
+                  Delegates Enquiry
                 </button>
               </div>
               <span className="text-center text-xl w-full ml-3">
@@ -49,7 +49,7 @@ function HeroContent() {
         </motion.div>
         <Counter/>
 
-        <Image src='/images/index/mainIconsdark.png' className="absolute top-0" alt='work icons' height={650} width={650} />
+        {/* <Image src='/images/index/mainIconsdark.png' className="absolute top-0" alt='work icons' height={650} width={650} /> */}
       </motion.div>
       <div className="h-full w-full flex flex-col mt-[-50px] md:mt-[0px] gap-5  justify-center text-start">
         <motion.div
