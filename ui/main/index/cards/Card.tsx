@@ -8,6 +8,7 @@ import Cards from "@/ui/sub/index/card/Cards";
 import { staggerContainer } from "@/utils/viewMotions";
 import { slideInFromTop } from "@/utils/motion";
 import Headers from "@/ui/sub/headers/Headers";
+import TestCards from "../../cards/TestCards";
 
 
 const Card = () => {
@@ -23,7 +24,7 @@ const Card = () => {
       <Headers first="HAPPENINGS" middle="&" last="INSIGHTS" />
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         {cardsDataOne.map(( card, index ) => (
-          <Cards
+          <TestCards
             key={index}
             index={index}
             src={card.src}
@@ -34,13 +35,13 @@ const Card = () => {
       </div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 pt-10">
         {cardsDataTwo.map(( card, index ) => (
-          <Cards
-            key={index}
-            index={index + 1}
-            src={card.src}
-            title={card.title}
-            description={card.description}
-          />
+          <TestCards
+          key={index}
+          index={index}
+          src={card.src}
+          title={card.title}
+          description={card.description}
+        />
         ))}
       </div>
     </motion.div>
