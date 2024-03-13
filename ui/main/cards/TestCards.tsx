@@ -23,13 +23,13 @@ function TestCards({ src, title, description, index }: Props) {
     <div
       data-aos-duration={index * 300}
       data-aos="fade-right"
-      className="relative flex flex-col justify-center overflow-hidden z-[20] rounded-2xl"
+      className="mt-5 relative flex flex-col justify-center overflow-hidden z-[20] rounded-2xl"
       style={{ backgroundImage: `url(${src})`, backgroundSize: "cover" }}
     >
       <div className="group relative cursor-pointer overflow-hidden  px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
         <span className="absolute top-10 z-[20] h-20 w-20 rounded-full bg-sky-500 transition-all duration-300 group-hover:scale-[11]"></span>
         <div className="relative z-[20] mx-auto max-w-md">
-          <span className="grid h-20 w-20 place-items-center rounded-full bg-sky-500 transition-all duration-300 group-hover:bg-sky-400">
+          {/* <span className="grid h-20 w-20 place-items-center rounded-full bg-sky-500 transition-all duration-300 group-hover:bg-sky-400">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -61,9 +61,9 @@ function TestCards({ src, title, description, index }: Props) {
                 </g>
               </g>
             </svg>
-          </span>
+          </span> */}
           <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-            <p className="opacity-0 group-hover:opacity-100 h-[300px] overflow-y-auto scrollbar-hidden">
+            <p className="opacity-0 group-hover:opacity-100 h-[400px] overflow-y-auto scrollbar-hidden">
               {description}.
             </p>
           </div>

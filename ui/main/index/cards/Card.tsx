@@ -22,7 +22,7 @@ const Card = () => {
       id="happening"
     >
       <Headers first="HAPPENINGS" middle="&" last="INSIGHTS" />
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex flex-col md:flex-row justify-between px-10">
         {cardsDataOne.map(( card, index ) => (
           <TestCards
             key={index}
@@ -33,7 +33,7 @@ const Card = () => {
           />
         ))}
       </div>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 pt-10">
+      <div className="h-full w-full flex flex-col md:flex-row justify-between px-10 md:pt-10">
         {cardsDataTwo.map(( card, index ) => (
           <TestCards
           key={index}
