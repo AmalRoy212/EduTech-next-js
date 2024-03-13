@@ -44,18 +44,20 @@ function TestHero() {
           SUMMIT
         </span>
       </motion.div>
+
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="relative w-full h-[200px] flex justify-center items-center md:pl-10"
+        className="relative w-full h-[250px] md:h-[200px] flex justify-center items-center md:pl-10"
       >
         <Counter />
         <h1 className="absolute bottom-0 text-white text-xl">
           8th AUGUST 2024 BENGALURU, INDIA
         </h1>
       </motion.div>
+
       <div className="w-full h-auto  absolute left-0 md:mt-[13rem] px-3 md:px-10 py-2">
         <div
-          className="w-full h-[200px]"
+          className="w-full h-auto"
           style={{ borderTop: "2px solid white" }}
         >
           <h1 className="text-white text-2xl font-extrabold flex justify-start items-center">
