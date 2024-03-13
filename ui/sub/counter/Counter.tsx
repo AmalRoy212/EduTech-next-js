@@ -29,9 +29,7 @@ function Counter() {
 
   return (
     <div
-      data-aos="fade-up"
-      data-aos-duration={3000}
-      className="w-full h-auto flex absolute justify-center items-center z-20 md:top-0 md:mt-[2rem] mt-[46rem]"
+      className="w-full h-auto flex  justify-center items-center z-20 absolute md:relative md:mt-0 mt-[0rem]"
     >
       <div className="w-full md:h-[130px] h-[120px] rounded-2xl bg-gradient-to-r from-purple-800 to-cyan-00 flex  p-1">
         <div className="w-[25%] h-full rounded-2xl flex flex-col justify-center items-center">

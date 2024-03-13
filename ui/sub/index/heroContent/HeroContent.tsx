@@ -51,7 +51,7 @@ function HeroContent() {
 
         {/* <Image src='/images/index/mainIconsdark.png' className="absolute top-0" alt='work icons' height={650} width={650} /> */}
       </motion.div>
-      <div className="h-full w-full flex flex-col mt-[-50px] md:mt-[0px] gap-5  justify-center text-start">
+      <div className="md:hidden flex h-full w-full  flex-col mt-[-50px] md:mt-[0px] gap-5  justify-center text-start">
         {/* <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] md:flex hidden border border-[#7042f88b] opacity-[0.9]"
@@ -78,12 +78,22 @@ function HeroContent() {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px] md:mt-[0] mt-[10rem] text-justify"
         >
-          The Global Future Education Summit is a premier gathering of
-          educators, policymakers, and innovators worldwide. It's a platform for
-          discussing the future of education, embracing technological
-          advancements, and sharing insights to shape innovative learning
-          approaches. Through workshops, keynotes, and collaborations, it aims
-          to drive meaningful changes in education globally.
+          The Global Future Education Summit is a premier business focussed
+            event driven by visionary insights, delving into the most recent
+            challenges and technological trends in the education technology
+            innovation sectors of India and Bengaluru. This summit establishes a
+            standard for technological advancement in the area, forging
+            connections between global edtech experts, innovators, and emerging
+            companies with a curated group of executives, encompassing CEOs,
+            Directors, School Owners, Executive Principals, University Heads,
+            Department Heads, Chief Technology Officers, Innovation Leaders,
+            government officials, policy makers and tech investors in Bengaluru.
+            The summit presents a diverse lineup of activities, featuring
+            enlightening keynotes, demonstrations of real-world applications,
+            product exhibitions, panel discussions, and educational tech talks.
+            Participants will have the chance to observe state-of-the-art
+            technological solutions presented by worldwide tech pioneers and
+            assess their significance and influence on various organizations.
         </motion.p>
 
         {/* <motion.div

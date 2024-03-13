@@ -1,9 +1,10 @@
 import HeroContent from "@/ui/sub/index/heroContent/HeroContent";
+import TestHero from "@/ui/sub/index/heroContent/TestHero";
 import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative overflow-x-hidden flex flex-col h-full bg-inherit w-full" id="hero">
+    <div className="relative overflow-x-hidden flex flex-col md:h-full h-[160vh] bg-inherit w-full" id="hero">
       <div style={{backgroundColor:"rgba(3, 0, 20, 0.674)"}} className="absolute w-full h-full top-0 left-0 z-10"></div>
       <div className="absolute w-full h-[20px] backdrop-blur-3xl bottom-0 left-0 z-10"></div>
       <video
@@ -14,7 +15,9 @@ const Hero = () => {
       >
         <source src="/videos/blackhole.webm" type="video/webm" />
       </video>
-      <HeroContent />
+      <TestHero/>
+
+      {/* <HeroContent/> */}
     </div>
   );
 };

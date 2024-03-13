@@ -27,8 +27,7 @@ function DetailsProvider() {
       </div>
       <div data-aos="fade-up-left" className='flex flex-col md:w-2/4 w-full md:h-screen h-auto justify-center items-center p-5'>
         <p className='text-base text-gray-400 dark:text-gray-400 md:p-5 text-justify'>
-          We believe leaders engaged in reshaping the
-          <span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> education </span>
+          We believe leaders engaged in reshaping the education
             space are truly the backbone of society. At the Global Future Education Summit, we bring them together under one roof, understand innovations 
             that can help them simplify and improve the education transmittal process. 
             Which will include strategies to engage teacher and students in solving significant 
@@ -40,7 +39,7 @@ function DetailsProvider() {
             journeys, perspectives and promote networking and collaboration between likeminded peers. The conference 
             will also spotlight disruptive technologies, policy making, innovations, researches and tools and practices
             that have the potential to reshape the 
-              <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-purple-500 to-cyan-500'> future </span>
+              future
             of learning. 
         </p>
       </div>
