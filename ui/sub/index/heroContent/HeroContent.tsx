@@ -70,7 +70,7 @@ function HeroContent() {
             </span>
             SUMMIT
           </span>
-          <span className='md:hidden flex absolute bottom-0 right-0 mt-[1rem] flex justify-center font-extrabold text-transparent text-[20px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>INITIATIVE BY <img width={50} height={15} src="/images/PNGs/dits.png" alt="" /></span>
+          <span className='md:hidden absolute bottom-0 right-0 mt-[1rem] flex justify-center font-extrabold text-transparent text-[20px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>INITIATIVE BY <img width={50} height={15} src="/images/PNGs/dits.png" alt="" /></span>
 
         </motion.div>
 
@@ -122,7 +122,7 @@ function HeroContent() {
             </div>
           </div>
           <Counter />
-          <img className="md:flex hidden absolute left-0  ml-5 mt-[11rem]" src="https://cdn.unischolarz.com/blog/wp-content/uploads/2021/05/24174938/IAFOR-ECE-ECLL2019-Conference-Montage.jpg" alt="" />
+          <img className="md:flex hidden absolute left-0  ml-5 mt-[12rem]" src="https://cdn.unischolarz.com/blog/wp-content/uploads/2021/05/24174938/IAFOR-ECE-ECLL2019-Conference-Montage.jpg" alt="" />
         </motion.div>
       </motion.div>
     </motion.div>
