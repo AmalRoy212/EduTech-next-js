@@ -29,7 +29,7 @@ function Counter() {
 
   return (
     <div
-      className="w-full h-auto flex  justify-center items-center z-20 absolute md:relative md:mt-0 mt-[0rem]"
+      className="w-full h-auto flex justify-center items-center z-20 absolute top-0 md:left-3 md:mt-[5rem] mt-[23rem]"
     >
       <div className="w-full md:h-[130px] h-[120px] rounded-2xl bg-gradient-to-r from-purple-800 to-cyan-00 flex  p-1">
         <div className="w-[25%] h-full rounded-2xl flex flex-col justify-center items-center">

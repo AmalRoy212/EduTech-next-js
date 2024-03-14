@@ -38,7 +38,7 @@ function Topics({ data, index }: Topic) {
       custom={index}
       transition={{delay : index * animationDelay}}
       key={index}
-      className="relative w-full md:w-1/6 flex flex-col-reverse justify-center items-center border-gradient-blue-purple m-3 p-5 cursor-pointer z-[20]"
+      className="relative w-full md:w-1/6 flex flex-col-reverse justify-center items-center border-gradient-blue-purple m-3 p-5 z-[20]"
       style={{ height: '200px' }}
     >
       <div className="absolute top-0 p-2 flex justify-center items-center h-[50%] overflow-hidden">

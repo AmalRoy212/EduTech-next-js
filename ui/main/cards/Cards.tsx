@@ -104,7 +104,7 @@ function Cards() {
           {" "}
           SHOULD{" "}
         </span>
-        ATTENT ?
+        ATTEND ?
       </div>
       <div className="md:flex md:mt-[-6rem] mr-8 md:mr-0 flex-row justify-center items-center px-10">
         {currentCardData.map((data, index) => (

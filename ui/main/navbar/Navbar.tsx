@@ -16,7 +16,7 @@ function Navbar() {
     <div className='w-[100%] h-[65px] fixed top-0 bg-[#03001417] backdrop-blur-md z-[50] px-2 md:px-10'>
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
-          href="#about-me"
+          href="https://globalfutureeducationsummit.com/"
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
