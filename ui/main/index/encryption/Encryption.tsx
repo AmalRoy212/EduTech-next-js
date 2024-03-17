@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
@@ -7,7 +6,7 @@ import SummitAttendees from "../attendies/Attedies";
 
 const Encryption = () => {
   return (
-    <div id="attendies" className="flex flex-row relative items-center justify-center min-h-screen pt-[8  rem] w-full md:h-full h-[135vh]">
+    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
@@ -22,23 +21,20 @@ const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="flex flex-row items-center md:mt-[8rem] absolute z-[20] w-full h-auto py-10">
-        <SummitAttendees />
-      </div>
-      {/* <div className="absolute z-[20] md:bottom-[10px] bottom-[0]  px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          What are the industries on focus ?
+      <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
+        <div className="flex flex-col items-center group cursor-pointer w-auto h-auto pt-[5rem]">
+          <SummitAttendees />
         </div>
-      </div> */}
+      </div>
 
-      <div className="w-full h-[100vh] items-start justify-center absolute hidden md:flex">
+      <div className="w-full flex items-start justify-center absolute">
         <video
           loop
           muted
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto object-cover"
+          className="w-full h-auto"
           src="/videos/encryption.webm/"
         />
       </div>

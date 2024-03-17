@@ -6,6 +6,7 @@ import Encryption from '@/ui/main/index/encryption/Encryption'
 import End from '@/ui/main/index/end/End'
 import Hero from '@/ui/main/index/hero/Hero'
 import Industries from '@/ui/main/index/industries/Industries'
+import Sponsors from '@/ui/main/index/sponsors/Sponsors'
 import StartUp from '@/ui/main/index/startUp/StartUp'
 import TopicsProvide from '@/ui/main/index/topics/TopicsProvide'
 import WhyShould from '@/ui/main/index/whyShould/WhyShould'
@@ -20,6 +21,7 @@ export default function Home() {
         <Encryption />
         <Cards />
         <TopicsProvide/>
+        <Sponsors />
         <WhyShould/>
         <StartUp/>
         <End/>
