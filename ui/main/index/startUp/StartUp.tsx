@@ -65,7 +65,7 @@ function StartUp() {
             playsInline
             preload="false"
             className="w-full h-auto object-cover"
-            src="/videos/about_background.mp4/"
+            src="/videos/space.mp4/"
           />
         </div>
       </div>

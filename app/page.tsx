@@ -10,6 +10,7 @@ import Sponsors from '@/ui/main/index/sponsors/Sponsors'
 import StartUp from '@/ui/main/index/startUp/StartUp'
 import TopicsProvide from '@/ui/main/index/topics/TopicsProvide'
 import WhyShould from '@/ui/main/index/whyShould/WhyShould'
+import Ticket from '@/ui/sub/index/ticket/Ticket'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <TopicsProvide/>
         <Sponsors />
         <WhyShould/>
+        <Ticket/>
         <StartUp/>
         <End/>
         <ContactUs />
