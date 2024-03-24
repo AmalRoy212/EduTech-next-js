@@ -11,7 +11,7 @@ import { slideInFromTop } from "@/utils/motion";
 
 function Sponsors() {
   const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -24,7 +24,7 @@ function Sponsors() {
       <div className="mainContainer">
         <motion.div
           variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
+          className="text-[40px] font-medium text-center text-gray-200 mb-10"
         >
           Some of the 
 
@@ -34,12 +34,12 @@ function Sponsors() {
           </span>
           from the Recent Past
         </motion.div>
-        <Slider {...settings}>
+        <Slider className="w-full bg-white" {...settings}>
           {sponsorsDataProvider.map((img) => (
             <SponsordsData imgSrc={img}/>
           ))}
         </Slider>
-        <Slider {...settings}>
+        <Slider className="w-full bg-white" {...settings}>
           {sponsorsDataProviderTwo.map((img) => (
             <SponsordsData imgSrc={img}/>
           ))}
