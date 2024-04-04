@@ -27,7 +27,7 @@ export default function ExtraCards() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src="https://th.bing.com/th/id/OIP.F34U7VjZ-4pIIUPTRRST6AHaE4?rs=1&pid=ImgDetMain" width={540} height={405} alt="Features 01" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src="https://images.fineartamerica.com/images-medium-large-5/government-building-southern-india-ali-kabas.jpg" width={540} height={405} alt="Features 01" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
@@ -68,7 +68,7 @@ export default function ExtraCards() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src="https://th.bing.com/th/id/OIP.F34U7VjZ-4pIIUPTRRST6AHaE4?rs=1&pid=ImgDetMain" width={540} height={405} alt="Features 02" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src="https://www.businessinsider.in/photo/72272888/none-of-the-indias-top-iits-feature-in-the-list-of-top-30-asian-universities.jpg?imgsize=2452715" width={540} height={405} alt="Features 02" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
@@ -109,7 +109,7 @@ export default function ExtraCards() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src="https://th.bing.com/th/id/OIP.F34U7VjZ-4pIIUPTRRST6AHaE4?rs=1&pid=ImgDetMain" width={540} height={405} alt="Features 03" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src="https://krypc.com/static/krypc_New/img/gallery/7.jpg" width={540} height={405} alt="Features 03" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
@@ -151,7 +151,7 @@ export default function ExtraCards() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src="https://th.bing.com/th/id/OIP.F34U7VjZ-4pIIUPTRRST6AHaE4?rs=1&pid=ImgDetMain" width={540} height={405} alt="Features 02" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src="https://entrackr.com/wp-content/uploads/2019/10/foreign-investment-1200x600.jpg" width={540} height={405} alt="Features 02" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
