@@ -2,7 +2,7 @@ import React from "react";
 
 function StartUp() {
   return (
-    <section className="document-area md:pt-60 relative h-[100vh]">
+    <section className="document-area md:pt-60 relative h-[100vh] mb-5">
       <div className="container md:px-0 px-4">
         <div className="flex justify-center">
           <div className="md:flex hidden md:mt-[-3rem] lg:w-5/12 lg:order-2 lg:order-first">
@@ -11,7 +11,7 @@ function StartUp() {
               data-wow-delay=".2s"
             >
               <img
-                src="/images/PNGs/startUp.png"
+                src="/images/index/startUp.png"
                 className="w-[400px]"
                 alt=""
               />
@@ -24,7 +24,6 @@ function StartUp() {
               data-wow-delay=".2s"
             >
               <div className="mb-8">
-                <span className="text-sm text-gray-200">Startup Pitch</span>
                 <h2 className="text-3xl font-bold">
                   Startup Pitch{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -65,7 +64,7 @@ function StartUp() {
             playsInline
             preload="false"
             className="w-full h-auto object-cover"
-            src="/videos/space.mp4/"
+            src="/videos/bg-video.mp4/"
           />
         </div>
       </div>

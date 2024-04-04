@@ -9,24 +9,24 @@ import Industries from '@/ui/main/index/industries/Industries'
 import Sponsors from '@/ui/main/index/sponsors/Sponsors'
 import StartUp from '@/ui/main/index/startUp/StartUp'
 import TopicsProvide from '@/ui/main/index/topics/TopicsProvide'
-import WhyShould from '@/ui/main/index/whyShould/WhyShould'
+import WhoIndustries from '@/ui/sub/index/WhyIndustries/WhyIndustries'
 import Ticket from '@/ui/sub/index/ticket/Ticket'
 
 export default function Home() {
   return (
     <main className='h-full w-full md:w-[100%] overflow-hidden'>
       <div className='flex flex-col gap-20'>
-        <Hero/>
-        <DetailsHolder/>
+        <Hero />
+        <DetailsHolder />
         <Card />
         <Encryption />
         <Cards />
-        <TopicsProvide/>
+        <TopicsProvide />
+        <WhoIndustries />
+        {/* <Ticket /> */}
         <Sponsors />
-        <WhyShould/>
-        <Ticket/>
-        <StartUp/>
-        <End/>
+        <StartUp />
+        {/* <End /> */}
         <ContactUs />
       </div>
     </main>

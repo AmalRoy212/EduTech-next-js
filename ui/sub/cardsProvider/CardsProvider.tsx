@@ -1,58 +1,83 @@
-import Image from "next/image";
-import React from "react";
-
-interface ICards {
-  data: {
-    img: string,
-    title : string,
-    content : string
-  };
-  index: number;
-}
-
-function CardsProvider({ data, index }: ICards) {
+export default function Blocks() {
   return (
-    <div 
-     
-     data-aos="zoom-in" 
-     className="relative z-[29] m-5 flex flex-col mt-6 text-gray-200 shadow-md bg-clip-border md:h-[60vh] h-[40vh] rounded-xl md:w-1/3 w-full backdrop-blur-10"
-    >
-      <div className="p-6"> 
-        <div className="w-full flex justify-center">
-          <div className="flex justify-center h-fit w-fit items-center rounded-full overflow-hidden bg-gray-50 p-5 mb-5">
-            <Image className="object-cover" src={data.img} alt="image" width={70} height={70}></Image>
-          </div>
+    <section>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="text-[40px] z-[9] font-medium text-center text-gray-200">
+          WHO
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            {" "}
+            SHOULD{" "}
+          </span>
+          ATTEND ?
         </div>
-        <h5 className="w-full flex justify-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-         {data.title}
-        </h5>
-        <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit text-justify">
-          {data.content}
-        </p>
-      </div>
-      {/* <div className="p-2 md:p-6 pt-0 absolute bottom-0">
-        <a href="#" className="inline-block">
-          <button
-            className="flex cursor-pointer text-gray-500 items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-700/30 active:bg-gray-900/20"
-            type="button"
-          >
-            Learn More
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="w-4 h-4"
-            >
-              <path
-                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-              ></path>
-            </svg>
-          </button>
-        </a>
-      </div> */}
-    </div>
-  );
-}
+        <div className="py-12 md:py-20 border-t border-gray-800">
+          {/* Section header */}
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+            <h2 className="mb-4">Empower Your Industry Knowledge</h2>
+            <p className="text-xl text-gray-400">Cultivate your expertise and join us as an active participant in shaping the future of education.</p>
+          </div>
 
-export default CardsProvider;
+          {/* Items */}
+          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
+
+            {/* 1st item */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="w-20 h-20 mb-4 bg-white rounded-full p-3">
+                <img className="w-full h-full" src="/images/cards/flowchart.png" alt="" />
+              </div>
+              <h3 className="mb-2">Ministries & Authorities</h3>
+              <p className="text-base text-gray-400 text-center">Government institutions and regulators responsible for setting standards and framework for the education eco-system</p>
+            </div>
+
+            {/* 2nd item */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="w-20 h-20 mb-4 bg-white rounded-full p-3">
+                <img className="w-full h-full" src="/images/cards/collage.png" alt="" />
+              </div>
+              <h3 className="mb-2">Head of Educational Institutions</h3>
+              <p className="text-base text-gray-400 text-center">Executive Principal, Principal, Head Taeacher, Deputy Head, Head of Primary & Secondary, Head of Universities etc</p>
+            </div>
+
+            {/* 3rd item */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="w-20 h-20 mb-4 bg-white rounded-full p-3">
+                <img className="w-full h-full" src="/images/cards/Inversiones.png" alt="" />
+              </div>
+              <h3 className="mb-2">Investors & Owners</h3>
+              <p className="text-base text-gray-400 text-center">Private Equity, Venture Capital, Impact Investors, Family Businesses & Investment Authorities</p>
+            </div>
+
+            {/* 4th item */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="w-20 h-20 mb-4 bg-white rounded-full p-3">
+                <img className="w-full h-full" src="/images/cards/network.png" alt="" />
+              </div>
+              <h3 className="mb-2">Key Stakeholders</h3>
+              <p className="text-base text-gray-400 text-center">Active players in the education ecosystem</p>
+            </div>
+
+            {/* 5th item */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="w-20 h-20 mb-4 bg-white rounded-full p-3">
+                <img className="w-full h-full" src="/images/cards/flowchart.png" alt="" />
+              </div>
+              <h3 className="mb-2">Head of Departments</h3>
+              <p className="text-base text-gray-400 text-center">Service / Solution providers, product suppliers, consultants, technology vendors & companies supporting the education eco-system</p>
+            </div>
+
+            {/* 6th item */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="w-20 h-20 mb-4 bg-white rounded-full p-3">
+                <img className="w-full h-full" src="/images/cards/enterpriser.png" alt="" />
+              </div>
+              <h3 className="mb-2">Enterprise Organizations</h3>
+              <p className="text-base text-gray-400 text-center">Government institutions and regulators responsible for setting standards and framework for the education eco-system</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )
+}

@@ -5,47 +5,6 @@ import ProgressBar from "../index/progressbar/bar/ProgressBar";
 import SubHeadings from "@/ui/sub/headers/SubHeadings";
 
 function Cards() {
-  const currentCardData = [
-    {
-      img: "/images/cards/flowchart.png",
-      title: "Ministries & Authorities",
-      content:
-        "Government institutions and regulators responsible for setting standards and framework for the education eco-system",
-    },
-    {
-      img: "/images/cards/collage.png",
-      title: "Head of Educational Institutions",
-      content:
-        "Executive Principal, Principal, Head Teacher, Deputy Head, Head of Primary & Secondary, Head of Universities etc",
-    },
-    {
-      img: "/images/cards/Inversiones.png",
-      title: "Investors & Owners",
-      content:
-        "Private Equity, Venture Capital, Impact Investors, Family Businesses & Investment Authorities",
-    },
-  ];
-
-  const currentCardDataTwo = [
-    {
-      img: "/images/cards/network.png",
-      title: "Key Stakeholders",
-      content: "Active players in the education ecosystem",
-    },
-    {
-      img: "/images/cards/flowchart.png",
-      title: "Head of Departments",
-      content:
-        "Academics, Inclusion, Teaching & Learning, Learning Technologies, Admissions, Curriculum, STEM etc",
-    },
-    {
-      img: "/images/cards/enterpriser.png",
-      title: "Enterprise Organizations",
-      content:
-        "Service / Solution providers, product suppliers, consultants, technology vendors & companies supporting the education eco-system",
-    },
-  ];
-
   const progressData = [
     {
       value: 45,
@@ -98,24 +57,7 @@ function Cards() {
 
   return (
     <>
-      <div className="text-[40px] z-[9] font-medium text-center text-gray-200">
-        WHO
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-          {" "}
-          SHOULD{" "}
-        </span>
-        END ?
-      </div>
-      <div className="md:flex md:mt-[-6rem] mr-8 md:mr-0 flex-row justify-center items-center px-10">
-        {currentCardData.map((data, index) => (
-          <CardsProvider key={index} data={data} index={index} />
-        ))}
-      </div>
-      <div className="md:flex mr-8 md:mr-0 flex-row justify-center items-center px-10 mt-[-6rem]">
-        {currentCardDataTwo.map((data, index) => (
-          <CardsProvider key={index} data={data} index={index} />
-        ))}
-      </div>
+      <CardsProvider />
       <div className="md:flex justify-center items-center gap-5">
         <div className="md:w-1/2 h-full">
           <SubHeadings fontSize={10} heading="INDUSTRIES" />
@@ -158,3 +100,4 @@ function Cards() {
 }
 
 export default Cards;
+
