@@ -12,10 +12,10 @@ export default function Blocks() {
         </div>
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="mb-4">Empower Your Industry Knowledge</h2>
             <p className="text-xl text-gray-400">Cultivate your expertise and join us as an active participant in shaping the future of education.</p>
-          </div>
+          </div> */}
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>

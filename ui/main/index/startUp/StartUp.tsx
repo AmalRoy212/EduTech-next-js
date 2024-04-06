@@ -5,7 +5,7 @@ function StartUp() {
     <section className="document-area md:pt-60 relative h-[100vh] mb-5">
       <div className="container md:px-0 px-4">
         <div className="flex justify-center">
-          <div className="md:flex hidden md:mt-[-3rem] lg:w-5/12 lg:order-2 lg:order-first">
+          <div className="md:flex hidden md:mt-[-3rem] lg:w-5/12 lg:order-first">
             <div
               className="document-img text-center wow fadeInUp"
               data-wow-delay=".2s"

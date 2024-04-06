@@ -6,7 +6,7 @@ function Why() {
   return (
     <>
       <DetailHeading 
-        nanoHeading={`The Mangalore EdTech market is growing rapidly`} 
+        nanoHeading={`The Bangalore EdTech market is growing rapidly`} 
         mainHeading={`Why Mangaluru ?`}
         miniHeading={`The city's large and young population`}
       />

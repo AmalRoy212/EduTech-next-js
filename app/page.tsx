@@ -15,7 +15,7 @@ import Ticket from '@/ui/sub/index/ticket/Ticket'
 export default function Home() {
   return (
     <main className='h-full w-full md:w-[100%] overflow-hidden'>
-      <div className='flex flex-col gap-20'>
+      <div className='flex flex-col '>
         <Hero />
         <DetailsHolder />
         <Card />

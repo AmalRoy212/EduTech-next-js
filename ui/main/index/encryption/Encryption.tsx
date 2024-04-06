@@ -16,11 +16,11 @@ export default function ExtraCards() {
         <div className="py-12 md:py-20 border-t border-gray-800">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Knowledge Unites, Opportunities Multiply</div>
             <h1 className="h2 mb-4">One product, unlimited solutions</h1>
             <p className="text-xl text-gray-400">Join our educational event and network with a diverse array of professionals! Connect with prequalified delegates, industry experts, organizations, sponsors & partners, and investors. Elevate your knowledge and expand your opportunities in just one event.</p>
-          </div>
+          </div> */}
 
           {/* Items */}
           <div className="grid gap-20">
