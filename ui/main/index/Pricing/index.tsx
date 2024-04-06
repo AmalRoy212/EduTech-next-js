@@ -2,7 +2,6 @@
 import { useState } from "react";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
-import SectionTitle from "@/ui/sub/index/sectionTitle/SectionTitle";
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
@@ -17,7 +16,7 @@ const Pricing = () => {
             PRICINGS{" "}
           </span>
         </div>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:px-40 px-5 border-t-slate-800 pt-5">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:px-40 px-2 border-t-slate-800 pt-5">
           <PricingBox
             packageName="Standard Pass"
             price={"₹ 9,999"}

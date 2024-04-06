@@ -14,7 +14,7 @@ const PricingBox = (props: {
         data-wow-delay=".1s"
       >
         <div className="flex items-center justify-between">
-          <h3 className="price mb-2 text-3xl font-bold text-black dark:text-white">
+          <h3 className="price mb-2 text-2xl md:text-3xl font-bold text-black dark:text-white">
             <span className="amount">{price}</span>
           </h3>
           <h4 className="mb-2 text-s font-bold text-dark dark:text-white">
