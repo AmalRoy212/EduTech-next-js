@@ -1,4 +1,5 @@
 import Cards from '@/ui/main/cards/Cards'
+import Pricing from '@/ui/main/index/Pricing'
 import DetailsHolder from '@/ui/main/index/aboutEvent/DetailsHolder'
 import Card from '@/ui/main/index/cards/Card'
 import ContactUs from '@/ui/main/index/contactUs/ContactUs'
@@ -23,6 +24,7 @@ export default function Home() {
         <Cards />
         <TopicsProvide />
         <WhoIndustries />
+        <Pricing/>
         {/* <Ticket /> */}
         <Sponsors />
         <StartUp />
