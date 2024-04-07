@@ -64,7 +64,7 @@ function StartUp() {
             playsInline
             preload="false"
             className="w-full h-auto object-cover"
-            src="/videos/bg-video.mp4/"
+            src="/videos/start.mov/"
           />
         </div>
       </div>

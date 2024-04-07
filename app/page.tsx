@@ -11,7 +11,6 @@ import Sponsors from '@/ui/main/index/sponsors/Sponsors'
 import StartUp from '@/ui/main/index/startUp/StartUp'
 import TopicsProvide from '@/ui/main/index/topics/TopicsProvide'
 import WhoIndustries from '@/ui/sub/index/WhyIndustries/WhyIndustries'
-import Ticket from '@/ui/sub/index/ticket/Ticket'
 
 export default function Home() {
   return (
@@ -25,10 +24,9 @@ export default function Home() {
         <TopicsProvide />
         <WhoIndustries />
         <Pricing/>
-        {/* <Ticket /> */}
         <Sponsors />
         <StartUp />
-        {/* <End /> */}
+        <End />
         <ContactUs />
       </div>
     </main>
