@@ -34,14 +34,14 @@ function Sponsors() {
           </span>
           from the Recent Past
         </motion.div>
-        <Slider className="w-full bg-white" {...settings}>
+        <Slider className="w-full bg-white py-5 px-10" {...settings}>
           {sponsorsDataProvider.map((img) => (
-            <SponsordsData imgSrc={img}/>
+            img && <SponsordsData imgSrc={img}/>
           ))}
         </Slider>
-        <Slider className="w-full bg-white" {...settings}>
+        <Slider className="w-full bg-white py-5 px-10" {...settings}>
           {sponsorsDataProviderTwo.map((img) => (
-            <SponsordsData imgSrc={img}/>
+            img && <SponsordsData imgSrc={img}/>
           ))}
         </Slider>
       </div>

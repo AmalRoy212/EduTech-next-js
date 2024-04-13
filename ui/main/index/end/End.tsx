@@ -4,7 +4,7 @@ import { slideInFromTop } from "@/utils/motion";
 import { motion } from "framer-motion";
 import React from "react";
 
-function End() {
+function  End() {
   return (
     <div className="relative md:overflow-hidden h-screen">
       <div className="absolute inset-0">

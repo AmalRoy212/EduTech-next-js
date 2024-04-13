@@ -7,7 +7,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import Counter from "@/ui/sub/counter/Counter";
 
 function IndexHeader() {
-  const pageHeader = useRef<HTMLImageElement>(null);
+  const pageHeader = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     if (window.innerWidth > 991 && pageHeader.current) {
@@ -25,9 +25,9 @@ function IndexHeader() {
   }, []);
 
   return (
-    <div className="relative md:overflow-hidden h-screen">
+    <div className="relative md:overflow-hidden h-[120vh]">
       <div className="absolute inset-0">
-        {/* <video
+        <video
           autoPlay
           loop
           muted
@@ -36,9 +36,9 @@ function IndexHeader() {
           style={{ filter: "brightness(60%)" }}
           ref={pageHeader}
         >
-          <source src="/videos/blackhole.webm" type="video/webm" />
-        </video> */}
-        <img src="/images/index/homebanner.jpg" className="object-cover w-full h-full" ref={pageHeader} alt="" />
+          <source src="/videos/bg-v.mp4" type="video/webm" />
+        </video>
+        {/* <img src="/images/index/homebanner.jpg" className="object-cover w-full h-full" ref={pageHeader} alt="" /> */}
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-center py-24 text-white">
@@ -72,7 +72,7 @@ function IndexHeader() {
           </motion.div>
           <Counter />
         </div>
-        <div className="w-full text-s text-justify md:px-28 md:mt-10 mt-5">
+        <div className="w-full text-s text-center md:px-28 md:mt-10 mt-5">
           <p className="text-slate-300 py-5 md:px-10 px-2 rounded-2xl">
           The Global Future Education Summit is a premier business focussed
           event driven by visionary insights, delving into the most recent

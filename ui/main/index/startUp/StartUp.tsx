@@ -2,7 +2,7 @@ import React from "react";
 
 function StartUp() {
   return (
-    <section className="document-area md:pt-60 relative h-[100vh] mb-5">
+    <section className="document-area md:pt-60 relative md:h-[120vh] mb-5">
       <div className="container md:px-0 px-4">
         <div className="flex justify-center">
           <div className="md:flex hidden md:mt-[-3rem] lg:w-5/12 lg:order-first">

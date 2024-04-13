@@ -4,7 +4,7 @@ import AboutUs from '../aboutUs/AboutUs'
 
 function ContactUs() {
   return (
-    <div className='relative w-full h-screen mt-[-20rem] md:mt-20 '>
+    <div className='relative w-full h-screen mt-[10rem] md:mt-20 '>
       <div data-aos="fade-left" data-aos-duration={300} className="text-[40px] w-full flex justify-center items-center absolute top-0 font-medium text-center text-gray-200 mt-[-3rem] z-10">
         ORGANIZED
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ml-3">
