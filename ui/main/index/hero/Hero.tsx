@@ -77,7 +77,7 @@ function IndexHeader() {
           The Global Future Education Summit is a premier business focussed
           event driven by visionary insights, delving into the most recent
           challenges and technological trends in the education technology
-          innovation sectors of India and Bengaluru. This summit establishes a
+          innovation sectors of India and Bengaluru. This summit establishes a 
           standard for technological advancement in the area, forging
           connections between global edtech experts, innovators, and emerging
           companies with a curated group of executives, encompassing CEOs,
