@@ -25,7 +25,7 @@ function IndexHeader() {
   }, []);
 
   return (
-    <div className="relative md:overflow-hidden h-[120vh]">
+    <div className="relative md:overflow-hidden h-[130vh]" id="hero">
       <div className="absolute inset-0">
         <video
           autoPlay
@@ -73,23 +73,36 @@ function IndexHeader() {
           <Counter />
         </div>
         <div className="w-full text-s text-center md:px-28 md:mt-10 mt-5">
+        <div className="flex-row flex justify-center items-center p-5 w-full z-[999] gap-4">
+            <a className="cursor-pointer w-autp px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
+              Sponsors
+            </a>
+            <br />
+            <a className="cursor-pointer w-autp px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
+              Deleagtes
+            </a>
+            <br />
+            <a className="cursor-pointer  w-auto px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
+              Speakers
+            </a>
+          </div>
           <p className="text-slate-300 py-5 md:px-10 px-2 rounded-2xl">
-          The Global Future Education Summit is a premier business focussed
-          event driven by visionary insights, delving into the most recent
-          challenges and technological trends in the education technology
-          innovation sectors of India and Bengaluru. This summit establishes a 
-          standard for technological advancement in the area, forging
-          connections between global edtech experts, innovators, and emerging
-          companies with a curated group of executives, encompassing CEOs,
-          Directors, School Owners, Executive Principals, University Heads,
-          Department Heads, Chief Technology Officers, Innovation Leaders,
-          government officials, policy makers and tech investors in Bengaluru.
-          The summit presents a diverse lineup of activities, featuring
-          enlightening keynotes, demonstrations of real-world applications,
-          product exhibitions, panel discussions, and educational tech talks.
-          Participants will have the chance to observe state-of-the-art
-          technological solutions presented by worldwide tech pioneers and
-          assess their significance and influence on various organizations.
+            The Global Future Education Summit is a premier business focussed
+            event driven by visionary insights, delving into the most recent
+            challenges and technological trends in the education technology
+            innovation sectors of India and Bengaluru. This summit establishes a
+            standard for technological advancement in the area, forging
+            connections between global edtech experts, innovators, and emerging
+            companies with a curated group of executives, encompassing CEOs,
+            Directors, School Owners, Executive Principals, University Heads,
+            Department Heads, Chief Technology Officers, Innovation Leaders,
+            government officials, policy makers and tech investors in Bengaluru.
+            The summit presents a diverse lineup of activities, featuring
+            enlightening keynotes, demonstrations of real-world applications,
+            product exhibitions, panel discussions, and educational tech talks.
+            Participants will have the chance to observe state-of-the-art
+            technological solutions presented by worldwide tech pioneers and
+            assess their significance and influence on various organizations.
           </p>
         </div>
       </div>

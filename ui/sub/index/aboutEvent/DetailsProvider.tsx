@@ -26,7 +26,7 @@ function DetailsProvider() {
         </div> */}
       </div>
       <div data-aos="fade-up-left" className='flex flex-col md:w-2/4 w-full md:h-screen h-auto justify-center items-center p-5'>
-        <p className='text-base text-gray-400 dark:text-gray-400 md:p-5 text-justify'>
+        <p className='text-[15px] text-gray-400 dark:text-gray-400 md:p-5 text-justify'>
           We believe leaders engaged in reshaping the education
             space are truly the backbone of society. At the Global Future Education Summit, we bring them together under one roof, understand innovations 
             that can help them simplify and improve the education transmittal process. 

@@ -3,7 +3,7 @@ import SummitAttendees from "../attendies/Attedies";
 
 export default function ExtraCards() {
   return (
-    <section>
+    <section id="attendies">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-[40px] font-medium text-center text-gray-200">
         ATTENDEES

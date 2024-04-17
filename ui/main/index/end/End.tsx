@@ -57,7 +57,7 @@ function  End() {
           technological advancements, Meeting Faculty development and technology
           needs, Formulating and discussing new initiatives.
         </motion.p>
-        <button className="z-[999] px-5 py-2 cursor-pointer shadow-md shadow-[#7042f861]/50 text-white rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-800 to-transparent mt-4 text-[16px] hover:from-transparent hover:to-purple-800">
+        <button className="cursor-pointer  w-auto px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
           Register now
         </button>
       </div>

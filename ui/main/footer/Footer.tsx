@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]  mt-[-10rem] z-[1] mb-10">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]  mt-[-10rem] z-[10] mb-10 cursor-pointer">
       <div className="w-full rounded-xl p-10 flex flex-col items-center justify-center m-auto bg-slate-900">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -23,7 +23,7 @@ const Footer = () => {
                 <span className="text-[15px] ml-[6px]">Home</span>
               </p>
             </a>
-            <a data-aos="fade-right" data-aos-duration={500} href="#about">
+            <a data-aos="fade-right" data-aos-duration={500} href="#about-us">
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <FcAbout />
                 <span className="text-[15px] ml-[6px]">About</span>
@@ -52,9 +52,9 @@ const Footer = () => {
             </a>                                              
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] font-bold ml-[6px]">Learn More</span>
-            </p>
+            </p> */}
             <p data-aos="fade-right" data-aos-duration={900} className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">	info@genfinityglobal.com</span>
             </p>
