@@ -34,10 +34,10 @@ function StartUp() {
               </div>
 
               <ul className="document-list">
-                <li className="mb-4 text-slate-300">
+                <li className="mb-4 mr-5 text-slate-300">
                   Stand a chance to win Genfinity credit valued at up to $9999
                 </li>
-                <li className="text-gray-100">
+                <li className="text-gray-100 md:mr-10">
                   Startup Pitch Competition serves as a premier fundraising
                   platform, catering to companies in various stages of
                   development. Whether you are in the initial stages of

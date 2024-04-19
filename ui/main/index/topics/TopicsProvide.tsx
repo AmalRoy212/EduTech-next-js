@@ -46,9 +46,9 @@ function TopicsProvide() {
         dis : 'Innovation for Mental Health and Well-being in Education'
     }
   return (
-    <div id='topics'>
+    <div id='topics' className='mt-20'>
         <DetailHeading nanoHeading='' mainHeading='KEY TOPICS OF DISCUSSION' miniHeading='' />
-        <div className='flex  md:flex-row flex-col w-[100%] h-auto justify-center items-center p-10'>
+        <div className='flex  md:flex-row flex-col w-[100%] h-auto justify-center items-center px-10'>
             {data.map((dat, index) => (
                 <Topics key={index} data={dat} index={index} />
             ))}

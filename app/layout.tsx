@@ -8,7 +8,7 @@ import Footer from '@/ui/main/footer/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Global Future Edution Summit',
+  title: 'Global Future Education Summit',
   description: 'Global future education summit bangalore 2024',
 }
 

@@ -4,7 +4,7 @@ export default function ExtraCards() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="text-[40px] font-medium text-center text-gray-200">
+        <div className="text-[40px] font-medium text-center text-gray-200 md:mt-10">
           WHY
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             {" "}

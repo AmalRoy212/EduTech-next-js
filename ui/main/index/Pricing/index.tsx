@@ -13,7 +13,7 @@ const Pricing = () => {
           AFFORDABLE
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             {" "}
-            PRICINGS{" "}
+            PASSES{" "}
           </span>
         </div>
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:px-40 px-2 pt-5">
