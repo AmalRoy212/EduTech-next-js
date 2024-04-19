@@ -5,6 +5,7 @@ import { slideInFromLeft, slideInFromRight } from "@/utils/motion";
 import { CiCalendarDate } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6";
 import Counter from "@/ui/sub/counter/Counter";
+import Link from "next/link";
 
 function IndexHeader() {
   const pageHeader = useRef<HTMLVideoElement>(null);
@@ -74,17 +75,24 @@ function IndexHeader() {
         </div>
         <div className="w-full text-s text-center md:px-28 md:mt-10 mt-5">
         <div className="flex-row flex justify-center items-center p-5 w-full z-[999] gap-4">
-            <a className="cursor-pointer w-autp px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
+            <Link href={"/sponsors"}
+              className="cursor-pointer w-autp px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
               Sponsors
-            </a>
-            <br />
-            <a className="cursor-pointer w-autp px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
+            </Link>
+            <Link href={"/delegates"}
+              className="cursor-pointer w-autp px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
+              Deleagtes
+            </Link>
+            <Link href={"/speakers"}
+              className="cursor-pointer w-autp px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
+              Speakers
+            </Link>
+            {/* <a className="cursor-pointer w-autp px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
               Deleagtes
             </a>
-            <br />
             <a className="cursor-pointer  w-auto px-10 py-2 shadow-md shadow-[#7042f861]/50 border rounded-3xl border-[#7042f861] bg-gradient-to-r from-purple-500 to-cyan-500 mt-4 text-[10px] hover:from-cyan-500 hover:to-purple-500">
               Speakers
-            </a>
+            </a> */}
           </div>
           <p className="text-slate-300 py-5 md:px-10 px-2 rounded-2xl">
             The Global Future Education Summit is a premier business focussed

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function StartUp() {
@@ -10,10 +11,12 @@ function StartUp() {
               className="document-img text-center wow fadeInUp"
               data-wow-delay=".2s"
             >
-              <img
+              <Image
                 src="/images/index/startUp.png"
-                className="w-[400px]"
+                // className="w-[400px]"
                 alt=""
+                width={400}
+                height={400}
               />
             </div>
           </div>
